@@ -1,0 +1,67 @@
+div#notes {
+	padding: 20px 100px;
+	overflow: hidden;
+}
+
+section.note {
+	width: 240px;
+	float: left;
+	margin: 20px;
+	padding: 30px;
+	font: 17px 'BelligerentMadnessRegular', Arial, sans-serif;
+	height: 190px;
+	box-shadow: 0 0 10px #666;
+	-moz-box-shadow: 0 0 10px #666;
+	-webkit-box-shadow: 0 0 10px #666;
+	line-height: 1.3em;
+}
+
+section.note h2 {
+	margin: 0;	
+}
+
+section#analysis {
+	background-color: #f8d441;
+	background: -moz-linear-gradient(-45deg, #ffe785, #f1c100);
+	background: -webkit-linear-gradient(-45deg, #ffe785, #f1c100);
+	background: linear-gradient(-45deg, #ffe785, #f1c100);
+	-moz-transform: rotate(-9deg);
+	-webkit-transform: rotate(-9deg);
+	transform: rotate(-9deg);
+	margin-right: -20px;
+}
+
+section#design {
+	background-color: #95d8ff;
+	background: -moz-linear-gradient(-45deg, #b6e4ff, #74cdff);
+	background: -webkit-linear-gradient(-45deg, #b6e4ff, #74cdff);
+	background: linear-gradient(-45deg, #b6e4ff, #74cdff);
+	-moz-transform: rotate(9deg);
+	-webkit-transform: rotate(9deg);
+	transform: rotate(9deg);
+	margin-top: 20px;
+}
+
+section#development {
+	background-color: #bcffa2;
+	background: -moz-linear-gradient(-45deg, #d2ffc2, #a5ff81);
+	background: -webkit-linear-gradient(-45deg, #d2ffc2, #a5ff81);
+	background: linear-gradient(-45deg, #d2ffc2, #a5ff81);
+	-moz-transform: rotate(9deg);
+	-webkit-transform: rotate(9deg);
+	transform: rotate(9deg);
+	margin-top: -5px;
+	margin-left: 50px;	
+}
+
+section#testing {
+	background-color: #ffb8ef;
+	background: -moz-linear-gradient(-45deg, #ffd3f5, #ff9de9);
+	background: -webkit-linear-gradient(-45deg, #ffd3f5, #ff9de9);
+	background: linear-gradient(-45deg, #ffd3f5, #ff9de9);
+	-moz-transform: rotate(-9deg);
+	-webkit-transform: rotate(-9deg);
+	transform: rotate(-9deg);
+	margin-left: -20px;
+	margin-top: -25px;
+}

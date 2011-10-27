@@ -1,0 +1,43 @@
+section#main {
+	overflow: hidden;
+}
+
+aside.beermat {
+	display: block;
+	width: 260px;
+	height: 260px;
+	float: right;
+	background-color: #efe5bf;
+	border-radius: 15px;
+	padding: 15px;
+	background: -moz-linear-gradient(-45deg, #faf4df, #e5d7a2);
+	background: -webkit-linear-gradient(-45deg, #faf4df5, #e5d7a2);
+	background: linear-gradient(-45deg, #faf4df, #e5d7a2);
+	-moz-transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	transform: rotate(7deg);
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+	margin: 20px 50px;
+}
+
+div.beermat_content {
+	width: 206px;
+	height: 206px;
+	border: solid 7px #ff533e;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+div.beermat_content h2 {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div.beermat_content p {
+	font: 25px 'BelligerentMadnessRegular', Arial, sans-serif;
+	color: #24357d;
+	line-height: 1.2em; 
+}

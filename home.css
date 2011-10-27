@@ -1,0 +1,45 @@
+div#header_content {
+	max-width: 800px;
+	min-width: 400px;
+	padding: 100px 20px;
+}
+
+div#header_content img#big_logo {
+	float: left;
+	margin: 40px 0;
+}
+
+div#header_content div.note {
+	float: right;
+}
+
+div.note {
+	margin: 25px auto;
+	background-color: #ffe785;
+	display: block;
+	width: 240px;
+	text-align: left;
+	padding: 40px;
+	font: 28px 'BelligerentMadnessRegular', Arial, sans-serif;
+	background: -moz-linear-gradient(-45deg, #ffe785, #f1c100);
+	background: -webkit-linear-gradient(-45deg, #ffe785, #f1c100);
+	background: linear-gradient(-45deg, #ffe785, #f1c100);
+	-moz-transform: rotate(-7deg);
+	-webkit-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+	line-height: 125%;
+}
+
+nav {
+	font-size: 14px;
+}
+
+nav ul {
+	text-align: center;
+	margin: 10px auto;
+	padding: 0;
+}
+
+nav ul li a {
+	color: black;
+}
