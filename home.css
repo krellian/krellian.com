@@ -23,6 +23,7 @@ div.note {
 	font: 28px 'BelligerentMadnessRegular', Arial, sans-serif;
 	background: -moz-linear-gradient(-45deg, #ffe785, #f1c100);
 	background: -webkit-linear-gradient(-45deg, #ffe785, #f1c100);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe785', endColorstr='#f1c100');
 	background: linear-gradient(-45deg, #ffe785, #f1c100);
 	-moz-transform: rotate(-7deg);
 	-webkit-transform: rotate(-7deg);

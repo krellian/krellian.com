@@ -15,6 +15,7 @@ aside.beermat {
 	background: linear-gradient(-45deg, #faf4df, #e5d7a2);
 	-moz-transform: rotate(7deg);
 	-webkit-transform: rotate(7deg);
+	-ms-transform: rotate(7deg);
 	transform: rotate(7deg);
 	box-shadow: 0 0 5px #666;
 	-moz-box-shadow: 0 0 5px #666;

@@ -12,6 +12,7 @@ section.project {
   background-color: #272727;
   background: -moz-linear-gradient(#000000, #4e4e4e);
   background: -webkit-linear-gradient(#000000, #4e4e4e);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4e4e4e');
   background: linear-gradient(#000000, #4e4e4e);
   min-height: 250px;
 }
