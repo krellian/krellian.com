@@ -10,6 +10,7 @@
 
 #business_card h2 {
   height: 90px; 
+  background-color: #272727;
   background: -moz-linear-gradient(#000000, #4e4e4e);
   background: -webkit-linear-gradient(#000000, #4e4e4e);
   background: linear-gradient(#000000, #4e4e4e);
