@@ -1,41 +1,214 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url("/fonts/opensans-regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: url("/fonts/opensans-semibold.woff") format("woff");
+}
+
 html, body {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
-  background-color: #000;
-  background-image: radial-gradient(closest-side, #636363 0%, #1f1f1f 100%);
+  background-color: #fff;
 }
 
-img {
+header {
+  background-color: #333;
   width: 100%;
-  height: 150px;
+  height: 20rem;
+}
+
+header #logo {
+  margin: 0 auto;
+  padding: 6.25rem 0;
   display: block;
-  position: absolute;
-  top: calc(50% - 75px);
+}
+
+.light-section {
+  background-color: #fff;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.dark-section {
+  background-color: #e6e6e6;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.illustration, .description {
+  flex: 1;
+}
+
+#intro {
+  height: 35rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#intro .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 50rem;
+  margin: 6rem auto;
+}
+
+#intro .description .detail {
+  width: 100%;
+  max-width: 45rem;
+  margin: 7.75rem auto;
+}
+
+#intro h1 {
+  display: block;
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin: 0;
+}
+
+#intro h2 {
+  font-size: 2.6rem;
+  color: #666;
+  margin: 0.5rem 0 0 0;
+}
+
+#intro .button, #register input[type=submit] {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 4rem;
+  font-size: 1.7rem;
+  background-color: #90bc5c;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 2rem auto 1rem auto;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+#intro .button:hover, #register input[type=submit]:hover {
+  background-color: #6d953d;
+}
+
+#krellian-os {
+  height: 35rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#krellian-os .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 48rem;
+  margin: 3.1rem auto;
+}
+
+#krellian-os .description, #krellian-console .description {
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+#krellian-os .description .detail {
+  width: 100%;
+  max-width: 40rem;
+  margin: 12.35rem auto;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+#krellian-console {
+  height: 35rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#krellian-console .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 48rem;
+  margin: 3.1rem auto;
+}
+
+#krellian-console .description .detail {
+  width: 100%;
+  max-width: 35rem;
+  margin: 12.35rem auto;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+#register {
+  text-align: center;
+  padding: 10rem 1rem;
+}
+
+#register h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+#register input[type=text], #register input[type=email] {
+  height: 3.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  padding: 0.1rem 1rem;
+  margin: 0.5rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+  padding: 2rem;
+  font-size: 1.3rem;
   text-align: center;
-  font-family: sans-serif;
-  font-size: 13px;
-  padding: 13px;
-  box-sizing: border-box;
-  text-align: center;
-  color: #666;
+  color: #1a1a1a;
 }
 
-a {
+footer #social a {
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-size: 3.2rem;
+  background-repeat: no-repeat;
+  margin: 0.25rem;
+}
+
+footer #facebook-icon {
+  background-image: url('../images/facebook_icon-greyscale.svg');
+}
+
+footer #twitter-icon {
+  background-image: url('../images/twitter_icon-greyscale.svg');
+}
+
+footer #facebook-icon:hover, #facebook-icon:active {
+  background-image: url('../images/facebook_icon-colour.svg');
+}
+
+footer #twitter-icon:hover, #twitter-icon:active {
+  background-image: url('../images/twitter_icon-colour.svg');  
+}
+
+footer a {
+  color: #1a1a1a;
   text-decoration: none;
-  color: #666;
 }
 
-a:hover {
+footer #copyright a:hover, footer #copyright a:active {
   text-decoration: underline;
 }
