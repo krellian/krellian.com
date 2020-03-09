@@ -14,7 +14,10 @@
     <title>Krellian - Interactive Digital Signage</title>
     <link rel="icon" href="images/icon.svg" />
     <link rel="stylesheet" type="text/css" href="css/site.css" />
-    <link rel="stylesheet" media="(max-width: 959px)" href="css/site-mobile.css" />  
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/lib/glide.core.min.css">
+    <link rel="stylesheet" media="(max-width: 959px)" href="css/site-mobile.css" /> 
+    <link rel="stylesheet" media="(max-width: 959px)" href="css/home-mobile.css" />  
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@KrellianUK" />
     <meta property="og:title" content="Krellian" />
@@ -22,7 +25,10 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://krellian.com" />
     <meta property="og:image" content="http://krellian.com/images/banner.png" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="js/lib/glide.min.js"></script>
+    <script src="js/home.js"></script>
+
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16744701-3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -31,10 +37,12 @@
       gtag('config', 'UA-16744701-3');
     </script>
   </head>
+  
   <body>
     <header>
       <img id="logo" src="images/logo.svg" alt="Krellian Kiosks" />
     </header>
+    
     <section id="intro" class="light-section">
       <div class="illustration">
         <img src="images/kiosk_hardware.jpg" alt="Interactive kiosk and digital signage hardware" />
@@ -47,6 +55,7 @@
         </div>
       </div>
     </section>
+    
     <section id="krellian-os" class="dark-section">
       <div class="illustration">
         <img src="images/krellian_os_screenshot.png" alt="Krellian OS screenshot" />
@@ -58,6 +67,7 @@
         </div>
       </div>
     </section>
+    
     <section id="krellian-console" class="light-section">
       <div class="illustration">
         <img src="images/krellian_console_screenshot.png" alt="Krellian Console screenshot" />
@@ -69,33 +79,107 @@
         </div>
       </div>
     </section>
-    <section id="register" class="dark-section">
-      <!-- Begin Mailchimp Signup Form -->
-      <div id="mc_embed_signup">
-      <form action="https://krellian.us4.list-manage.com/subscribe/post?u=4c7df68d508c5a0e296c0423c&amp;id=00f1f4d619" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
-          <div id="mc_embed_signup_scroll">
-      	<h2>Register Your Interest</h2>
-      <div class="mc-field-group">
-      	<input type="text" value="" name="FIRST_NAME" class="" id="mce-FIRST_NAME" placeholder="First name">
+    
+    <section id="use-cases" class="dark-section">
+      <div id="use-case-carousel" class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/digital_billboard.jpg" alt="Outdoor digital billboard" />
+                <figcaption>Advertising</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/self_check_in_kiosk.jpg" alt="Self check-in kiosk in hotel" />
+                <figcaption>Hospitality</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/waiting_room.jpg" alt="Digital information board in waiting room" />
+                <figcaption>Healthcare</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/interactive_exhibit.jpg" alt="Interactive exhibit in museum" />
+                <figcaption>Museums</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/departure_board.jpg" alt="Departure board in airport" />
+                <figcaption>Travel</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/wayfinding_kiosk.jpg" alt="Wayfinding kiosk in shopping centre" />
+                <figcaption>Retail</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/digital_menus.jpg" alt="Digital menus in cinema" />
+                <figcaption>Entertainment</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/smart_home_control_panel.jpg" alt="Smart home control panel" />
+                <figcaption>Automation</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <div id="arrows" class="glide__arrows" data-glide-el="controls">
+          <button id="left-arrow" class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
+          <button id="right-arrow" class="glide__arrow glide__arrow--right" data-glide-dir=">"></button>
+        </div>
       </div>
-      <div class="mc-field-group">
-      	<input type="text" value="" name="LAST_NAME" class="" id="mce-LAST_NAME" placeholder="Last name">
-      </div>
-      <div class="mc-field-group">
-      	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"  placeholder="Email address">
-      </div>
-      	<div id="mce-responses" class="clear">
-      		<div class="response" id="mce-error-response" style="display:none"></div>
-      		<div class="response" id="mce-success-response" style="display:none"></div>
-      	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4c7df68d508c5a0e296c0423c_00f1f4d619" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-          </div>
-      </form>
-      </div>
-
-      <!--End mc_embed_signup-->
     </section>
+  
+    <section id="supported-by" class="light-section">
+      <h2>Supported by</h2>
+      <a href="https://www.northeastlep.co.uk/">
+        <img src="images/north_east_lep.png" alt="North East Local Enterprise Partnership" />
+      </a>
+      <a href="https://www.highpotentialstartups.co.uk/">
+        <img src="images/high_potential_startups.png" alt="High Potential Startups" />
+      </a>
+      <a href="https://www.northeastgrowthhub.co.uk/">
+        <img src="images/north_east_growth_hub.png" alt="North East Growth Hub" />
+      </a>
+    </section>
+    
+    <section id="register" class="dark-section">
+      <!-- MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="https://krellian.us4.list-manage.com/subscribe/post?u=4c7df68d508c5a0e296c0423c&amp;id=00f1f4d619" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+            <div id="mc_embed_signup_scroll">
+        	<h2>Register Your Interest</h2>
+        <div class="mc-field-group">
+        	<input type="text" value="" name="FIRST_NAME" class="" id="mce-FIRST_NAME" placeholder="First name">
+        </div>
+        <div class="mc-field-group">
+        	<input type="text" value="" name="LAST_NAME" class="" id="mce-LAST_NAME" placeholder="Last name">
+        </div>
+        <div class="mc-field-group">
+        	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"  placeholder="Email address">
+        </div>
+        	<div id="mce-responses" class="clear">
+        		<div class="response" id="mce-error-response" style="display:none"></div>
+        		<div class="response" id="mce-success-response" style="display:none"></div>
+        	</div> <!-- real people should not fill this in and expect good things -->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4c7df68d508c5a0e296c0423c_00f1f4d619" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+      </div>
+    </section>
+    
     <footer>
       <nav id="social">
         <a id="facebook-icon" href="https://www.facebook.com/KrellianUK/"></a>
@@ -105,5 +189,6 @@
         &copy; <a href="mailto:ben@krellian.com">Ben Francis</a> 2020
       </span>
     </footer>
+
   </body>
 </html>
