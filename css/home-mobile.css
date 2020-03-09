@@ -1,0 +1,69 @@
+#intro, #krellian-os, #krellian-console {
+  display: block;
+  height: auto;
+}
+
+#intro .illustration img,
+#krellian-os .illustration img,
+#krellian-console .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+#intro .description .detail {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0;
+}
+
+#intro h1 {
+  display: block;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  max-width: 35rem;
+  font-size: 2.5rem;
+}
+
+#intro h2 {
+  font-size: 2rem;
+}
+
+#intro .button {
+  margin: 2rem auto;
+}
+
+#krellian-os, #krellian-console {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#krellian-os .description .detail,
+#krellian-console .description .detail {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0;
+}
+
+#krellian-os .detail img,
+#krellian-console .detail img {
+  height: 2.5rem;
+}
+
+#krellian-os .detail p,
+#krellian-console .detail p {
+  max-width: 27rem;
+  display: block;
+  margin: 1rem auto;
+}
+
+#use-cases {
+  padding: 2rem 5rem;
+}
