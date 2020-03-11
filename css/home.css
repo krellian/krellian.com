@@ -103,6 +103,13 @@
   padding: 4rem 15rem;
 }
 
+/* Temporary dimensions during load */
+#use-cases li {
+  width: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 #use-cases #arrows {
   position: absolute;
   top: calc(50% - 2rem);
