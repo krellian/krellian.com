@@ -58,6 +58,36 @@ footer {
   color: #1a1a1a;
 }
 
+footer #footer-links {
+  margin: 1rem auto 2rem auto;
+}
+
+footer #footer-links a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+footer #footer-links a:hover, footer #footer-links a:active {
+  text-decoration: underline;
+}
+
+footer #footer-links ul {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+footer #footer-links li {
+  list-style-type: none;
+  display: inline;
+  border-right: solid 1px #1a1a1a;
+  padding: 0 1rem;
+}
+
+footer #footer-links li:last-child {
+  border-right: none;
+}
+
 footer #social a {
   display: inline-block;
   width: 3.2rem;
@@ -83,11 +113,7 @@ footer #twitter-icon:hover, #twitter-icon:active {
   background-image: url('../images/twitter_icon-colour.svg');  
 }
 
-footer a {
-  color: #1a1a1a;
-  text-decoration: none;
-}
-
-footer #copyright a:hover, footer #copyright a:active {
-  text-decoration: underline;
+#copyright {
+  display: block;
+  margin-top: 1rem;
 }
