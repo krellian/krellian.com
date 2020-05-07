@@ -26,6 +26,7 @@
     <meta property="og:url" content="https://krellian.com" />
     <meta property="og:image" content="https://krellian.com/images/banner.png" />
     <script src="js/lib/glide.min.js"></script>
+    <script src="/js/site.js"></script>
     <script src="js/home.js"></script>
 
     <!-- Google Analytics -->
@@ -40,8 +41,19 @@
   
   <body>
     <header>
+      <button id="menu-button"></button>
       <img id="logo" src="../images/logo.svg" alt="Krellian" />
     </header>
+    
+    <nav id="main-navigation">
+      <ul id="main-navigation-list">
+        <li><a class="selected" href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/products/box">Products</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
     
     <section id="intro" class="light-section">
       <div class="illustration">
@@ -184,7 +196,7 @@
       <nav id="footer-links">
         <ul>
           <li><a href="https://medium.com/@bfrancis/introducing-krellian-interactive-digital-signage-c974b97e19f">Blog</a></li>
-          <li><a href="mailto:enquiries@krellian.com">Contact</a></li>
+          <li><a href="/contact">Contact</a></li>
           <li><a href="/privacy">Privacy</a></li>
           <li><a href="/press">Press</a></li>
         </ul>
