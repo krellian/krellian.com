@@ -1,0 +1,28 @@
+#intro {
+  padding: 3.125rem 2rem;
+}
+
+#intro img {
+  width: 11.25rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#subtitle {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.box {
+  display: block;
+  text-align: center;
+}
+
+.box figure {
+  margin: 0 auto;
+}

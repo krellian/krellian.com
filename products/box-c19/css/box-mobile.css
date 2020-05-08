@@ -1,0 +1,103 @@
+#intro {
+  display: block;
+  height: auto;
+}
+
+#intro .illustration {
+
+}
+
+#intro .illustration img {
+  max-width: 35.65rem;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+#intro .description .detail {
+  width: auto;
+  max-width: none;
+  margin: 0 2rem 3rem 2rem;
+}
+
+#intro h1, #krellian-box h1 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+#intro h2, #krellian-box h2 {
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+#krellian-box {
+  display: block;
+  height: auto;
+}
+
+#krellian-box .illustration img {
+  max-width: 38.8rem;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+#krellian-box .description {
+
+}
+
+#krellian-box .description .detail {
+  width: auto;
+  max-width: none;
+  padding: 0 2rem 2rem 2rem;
+  margin: 0;
+}
+
+#krellian-box .button {
+  display: block;
+  width: 16rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#three-steps {
+  padding-top: 2rem;
+}
+
+#three-steps .step {
+  display: block;
+  height: auto;
+}
+
+#three-steps .step .description {
+  box-sizing: border-box;
+  padding: 0 2rem;
+}
+
+#three-steps .step .description img {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+#three-steps .step .description p {
+  margin: 2rem;
+  font-size: 1.5rem;
+  height: auto;
+  width: auto;
+  margin-top: 0;
+}
+
+#three-steps .step .illustration img {
+  width: 100%;
+  max-width: 50rem;
+  height: auto;
+}
+
+#benefits {
+  display: block;
+}
+
+#benefits .benefit {
+  max-width: 50rem;
+  margin: 0 auto;
+}

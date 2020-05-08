@@ -1,0 +1,119 @@
+#intro {
+  text-align: center;
+  padding: 6.25rem 2rem;
+  box-sizing: border-box;
+}
+
+#intro img {
+  width: 22.5rem;
+}
+
+#about {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+  text-align: center;
+}
+
+#subtitle {
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #666;
+  margin: 0 auto;
+  max-width: 59rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.bubble {
+  display: block;
+  margin: 0 auto;
+  flex: 1;
+  color: #000;
+  background-color: #fff;
+  padding: 20px 20px 0 20px;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  max-width: 60rem;
+  text-align: center;
+}
+
+.bubble::after {
+  position: relative;
+  left: -29px;
+  top: -15px;
+  display: block;
+  transform: rotate(45deg);
+  background-color: white;
+  content: "";
+  width: 18px;
+  height: 18px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.5rem;
+  background-color: white;
+  max-width: 85rem;
+  font-size: 1.7rem;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+
+.box figure {
+  width: 20rem;
+  margin: 2rem;
+}
+
+.box img {
+  width: 20rem;
+}
+
+.box figcaption {
+  font-size: 1.4rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.box p {
+  flex: 1;
+  padding: 1rem;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.7rem;
+  background-color: #90bc5c;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 4rem auto;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button:hover, .button:active {
+  background-color: #6d953d;
+  text-decoration: none;
+}
