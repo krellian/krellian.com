@@ -69,3 +69,11 @@
   background-color: #6d953d;
   text-decoration: none;
 }
+
+#services #illustrations {
+  text-align: center;
+}
+
+#services img {
+  width: 18rem;
+}
