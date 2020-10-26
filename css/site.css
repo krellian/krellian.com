@@ -143,11 +143,15 @@ footer #social a {
   height: 3.2rem;
   background-size: 3.2rem;
   background-repeat: no-repeat;
-  margin: 0.25rem;
+  margin: 0.5rem;
 }
 
 footer #facebook-icon {
   background-image: url('../images/facebook_icon-greyscale.svg');
+}
+
+footer #github-icon {
+  background-image: url('../images/github_icon-greyscale.svg');
 }
 
 footer #twitter-icon {
@@ -158,8 +162,12 @@ footer #facebook-icon:hover, #facebook-icon:active {
   background-image: url('../images/facebook_icon-colour.svg');
 }
 
+footer #github-icon:hover, #github-icon:active {
+  background-image: url('../images/github_icon-colour.svg');
+}
+
 footer #twitter-icon:hover, #twitter-icon:active {
-  background-image: url('../images/twitter_icon-colour.svg');  
+  background-image: url('../images/twitter_icon-colour.svg');
 }
 
 #copyright {
