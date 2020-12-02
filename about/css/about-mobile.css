@@ -1,16 +1,29 @@
 #intro {
-  padding: 3.125rem 2rem;
+  background-image: url('../images/smart_buildings_hero-mobile.png');
 }
 
-#intro img {
-  width: 11.25rem;
+#intro {
+  display: block;
 }
 
-h1 {
-  font-size: 3rem;
+#intro .description .detail {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0;
 }
 
-#subtitle {
+#intro h1 {
+  display: block;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  max-width: 35rem;
+  font-size: 2.5rem;
+}
+
+#intro h2 {
   font-size: 2rem;
 }
 
@@ -18,11 +31,24 @@ h2 {
   font-size: 2rem;
 }
 
-.box {
+#history.box {
   display: block;
+  text-align: center;
+}
+
+#principles.box {
+  padding: 2rem;
   text-align: center;
 }
 
 .box figure {
   margin: 0 auto;
+}
+
+#principles .logos {
+  padding: 1rem;
+}
+
+#principles .logos img {
+  margin: 1rem;
 }

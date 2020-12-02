@@ -25,7 +25,7 @@
 
 #krellian-box .illustration img {
   display: block;
-  height: 22rem; 
+  height: 22rem;
   margin: 6.5rem auto;
 }
 
@@ -84,6 +84,10 @@
   display: flex;
   flex-direction: row;
   padding: 0 0 0 5rem;
+}
+
+#three-steps .step .description img {
+  width: 8.5rem;
 }
 
 #three-steps .step .description p {

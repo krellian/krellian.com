@@ -1,41 +1,54 @@
-#intro {
-  text-align: center;
-  padding: 6.25rem 2rem;
-  box-sizing: border-box;
-}
-
-#intro img {
-  width: 22.5rem;
-}
-
 #about {
   padding: 2rem;
 }
 
-h1 {
+#intro {
+  height: 35rem;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #030505;
+  background-image: url('../images/smart_buildings_hero.png');
+  background-size: auto 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#intro .description .detail {
+  width: 100%;
+  max-width: 36.5rem;
+  margin: 11.55rem auto;
+}
+
+#intro h1 {
+  display: block;
+  width: 100%;
   font-size: 3.5rem;
-  font-style: italic;
   font-weight: 600;
-  margin: 0 auto;
-  padding: 2rem 0 0 0;
-  text-align: center;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
 }
 
-#subtitle {
+#intro h2 {
   font-size: 2.6rem;
-  font-weight: 400;
   color: #666;
-  margin: 0 auto;
-  max-width: 59rem;
-  text-align: center;
+  margin: 0.5rem 0 0 0;
+  color: #fff;
+  font-weight: normal;
 }
 
-h2 {
+#about h2 {
   font-size: 2.6rem;
   font-weight: 600;
   margin: 0 auto;
   text-align: center;
   padding: 2rem 0;
+}
+
+#about h3 {
+  padding: 0 1rem;
+  margin: 0;
 }
 
 .bubble {
@@ -64,8 +77,6 @@ h2 {
 }
 
 .box {
-  display: flex;
-  flex-direction: row;
   border-radius: 0.5rem;
   background-color: white;
   max-width: 85rem;
@@ -74,6 +85,24 @@ h2 {
   margin: 0 auto;
   margin-bottom: 2rem;
   box-sizing: border-box;
+}
+
+#principles.box {
+  padding: 4rem;
+}
+
+#history.box {
+  display: flex;
+  flex-direction: row;
+}
+
+#principles .logos {
+  text-align: center;
+  padding: 2rem 2rem 0 2rem;
+}
+
+#principles .logos img {
+  margin: 1rem 2rem;
 }
 
 
@@ -95,6 +124,11 @@ h2 {
 .box p {
   flex: 1;
   padding: 1rem;
+}
+
+#principles.box p {
+  margin: 0;
+  padding: 0 1rem 2rem 1rem;
 }
 
 .button {
