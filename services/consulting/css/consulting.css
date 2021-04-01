@@ -1,0 +1,41 @@
+#intro {
+  display: flex;
+  flex-direction: column;
+  height: 35rem;
+  text-align: center;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.illustration {
+  flex: none;
+}
+
+#intro .illustration img {
+  width: 18rem;
+}
+
+#intro .wordmark {
+  height: 3.2rem;
+  padding: 2rem;
+}
+
+#consulting {
+  text-align: center;
+  padding: 2rem;
+}
+
+#consulting h1 {
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+#consulting p {
+  display: block;
+  margin: 2rem auto;
+  font-size: 1.7rem;
+  max-width: 80rem;
+  text-align: left;
+}

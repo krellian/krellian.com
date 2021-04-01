@@ -1,0 +1,112 @@
+#intro h1 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+#intro h2 {
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+#intro {
+  display: block;
+  height: auto;
+}
+
+#intro .illustration .photo {
+  max-width: 36rem;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+#intro .description .detail {
+  width: auto;
+  max-width: none;
+  padding: 0 2rem 2rem 2rem;
+  margin: 0;
+}
+
+#intro .button {
+  display: block;
+  width: 16rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#benefits {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#key-benefits {
+  display: block;
+}
+
+#benefits p {
+  padding: 2rem;
+}
+
+#benefits .benefit {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+#benefits .one-liner {
+  margin: 0 auto;
+}
+
+.feature {
+  display: block;
+}
+
+.feature .illustration {
+  padding-top: 4rem;
+}
+
+.feature .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.feature .description, .feature.dark-section .description {
+  width: 100%;
+  padding: 0 2rem 4rem 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#hardware, #software, #standards {
+  display: block;
+  padding: 2rem;
+}
+
+#hardware img, #software img, #standards img {
+  width: 100%;
+  height: auto;
+}
+
+#hardware .illustration {
+  display: block;
+  padding: 0;
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+#hardware-specifications {
+  display: block;
+}
+
+#hardware-specifications .illustration img {
+  height: auto;
+}
+
+#software img {
+  max-width: 25rem;
+}
+
+#standards img {
+  max-width: 80rem;
+}

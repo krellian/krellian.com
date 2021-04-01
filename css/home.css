@@ -2,13 +2,12 @@
   height: 35rem;
   display: flex;
   flex-direction: row-reverse;
-}
-
-#intro .illustration img {
-  display: block;
-  width: 100%;
-  max-width: 50rem;
-  margin: 6rem auto;
+  background-color: #030505;
+  background-image: url('../images/smart_buildings_hero.png');
+  background-size: auto 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 
 #intro .description .detail {
@@ -22,173 +21,69 @@
   width: 100%;
   font-size: 3.5rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #fff;
   line-height: 1.2;
   margin: 0;
 }
 
 #intro h2 {
   font-size: 2.6rem;
-  color: #666;
   margin: 0.5rem 0 0 0;
-}
-
-#intro .button, #register input[type=submit] {
-  display: inline-block;
-  box-sizing: border-box;
-  height: 4rem;
-  font-size: 1.7rem;
-  background-color: #90bc5c;
-  padding: 0.8rem 1rem;
-  border-radius: 0.5rem;
   color: #fff;
-  text-decoration: none;
-  margin: 2rem auto 1rem auto;
-  border: none;
-  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
 }
 
-#intro .button:hover, #register input[type=submit]:hover {
-  background-color: #6d953d;
-}
-
-#krellian-os {
-  height: 35rem;
+#webthings,
+#krellian-hub,
+#krellian-console {
   display: flex;
+  height: 35rem;
+}
+
+#webthings,
+#krellian-console {
   flex-direction: row;
 }
 
-#krellian-os .illustration img {
-  display: block;
-  width: 100%;
-  max-width: 48rem;
-  margin: 3.1rem auto;
-}
-
-#krellian-os .description, #krellian-console .description {
-  padding: 0 2rem;
-  box-sizing: border-box;
-}
-
-#krellian-os .description .detail {
-  width: 100%;
-  max-width: 40rem;
-  margin: 12.35rem auto;
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-#krellian-console {
-  height: 35rem;
-  display: flex;
+#krellian-hub {
   flex-direction: row-reverse;
 }
 
-#krellian-console .illustration img {
-  display: block;
-  width: 100%;
-  max-width: 48rem;
-  margin: 3.1rem auto;
+#webthings .illustration,
+#krellian-hub .illustration,
+#krellian-console .illustration,
+#webthings .description,
+#krellian-hub .description,
+#krellian-console .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
-#krellian-console .description .detail {
-  width: 100%;
+#webthings .description img {
+  height: 5rem;
+}
+
+#webthings .description p,
+#krellian-hub .description p,
+#krellian-console .description p {
   max-width: 35rem;
-  margin: 12.35rem auto;
-  text-align: center;
-  font-size: 1.7rem;
 }
 
-#use-cases {
-  padding: 4rem 15rem;
+#webthings .illustration img {
+  height: 20rem;
 }
 
-/* Temporary dimensions during load */
-#use-cases li {
-  width: 20rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+#krellian-hub .illustration img {
+  display: block;
+  width: 36rem;
 }
 
-#use-cases #arrows {
-  position: absolute;
-  top: calc(50% - 2rem);
-  height: 0;
-  width: 100%;
-
-}
-
-#use-cases #left-arrow {
-  position: absolute;
-  left: -4rem;
-  background-image: url('../images/left_arrow.svg');
-  background-color: transparent;
-  border: none;
-  width: 2.4rem;
-  height: 2.4rem;
-  padding: 0;
-}
-
-#use-cases #right-arrow {
-  position: absolute;
-  right: -4rem;
-  background-image: url('../images/right_arrow.svg');
-  background-color: transparent;
-  border: none;
-  width: 2.4rem;
-  height: 2.4rem;
-  padding: 0;
-}
-
-#use-cases figure {
-  margin: 0;
-}
-
-.use-case img {
-  width: 100%;
-}
-
-.use-case figcaption {
-  font-size: 1.7rem;
-  text-align: center;
-}
-
-#supported-by {
-  text-align: center;
-}
-
-#supported-by h2 {
-  font-size: 17px;
-  font-weight: normal;
-  margin: 3rem 0 0 0;
-}
-
-#supported-by a {
-  text-decoration: none;
-}
-
-#supported-by a img {
-  width: 16rem;
-  margin: 3rem;
-  vertical-align: middle;
-}
-
-#register {
-  text-align: center;
-  padding: 10rem 1rem;
-}
-
-#register h2 {
-  font-size: 2.2rem;
-  font-weight: 400;
-}
-
-#register input[type=text], #register input[type=email] {
-  height: 3.2rem;
-  border: none;
-  border-radius: 0.5rem;
-  font-size: 1.7rem;
-  padding: 0.1rem 1rem;
-  margin: 0.5rem;
-  font-family: "Open Sans", sans-serif;
+#krellian-console .illustration img {
+  width: 48rem;
 }

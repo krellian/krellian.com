@@ -100,6 +100,123 @@ header #logo {
   flex: 1;
 }
 
+.button, input[type=submit] {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 4rem;
+  font-size: 1.7rem;
+  background-color: #90bc5c;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 2rem auto 1rem auto;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button:hover,
+.button:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+  background-color: #6d953d;
+  text-decoration: none;
+}
+
+#use-cases {
+  padding: 4rem 15rem;
+}
+
+/* Temporary dimensions during load */
+#use-cases li {
+  width: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#use-cases #arrows {
+  position: absolute;
+  top: calc(50% - 2rem);
+  height: 0;
+  width: 100%;
+
+}
+
+#use-cases #left-arrow {
+  position: absolute;
+  left: -4rem;
+  background-image: url('../images/left_arrow.svg');
+  background-color: transparent;
+  border: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+}
+
+#use-cases #right-arrow {
+  position: absolute;
+  right: -4rem;
+  background-image: url('../images/right_arrow.svg');
+  background-color: transparent;
+  border: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+}
+
+#use-cases figure {
+  margin: 0;
+}
+
+.use-case img {
+  width: 100%;
+}
+
+.use-case figcaption {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#supported-by {
+  text-align: center;
+}
+
+#supported-by h2 {
+  font-size: 17px;
+  font-weight: normal;
+  margin: 3rem 0 0 0;
+}
+
+#supported-by a {
+  text-decoration: none;
+}
+
+#supported-by a img {
+  width: 16rem;
+  margin: 3rem;
+  vertical-align: middle;
+}
+
+#register {
+  text-align: center;
+  padding: 10rem 1rem;
+}
+
+#register h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+#register input[type=text], #register input[type=email] {
+  height: 3.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  padding: 0.1rem 1rem;
+  margin: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
 footer {
   padding: 2rem;
   font-size: 1.3rem;

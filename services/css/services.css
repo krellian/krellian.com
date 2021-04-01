@@ -1,4 +1,60 @@
-#intro {
+#krellian-console,
+#krellian-consulting {
+  height: 35rem;
+  display: flex;
+}
+
+#krellian-console {
+  flex-direction: row;
+}
+
+#krellian-consulting {
+  flex-direction: row-reverse;
+}
+
+#krellian-console .description,
+#krellian-consulting .description {
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+#krellian-console .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 48rem;
+  margin: 3.1rem auto;
+}
+
+#krellian-consulting .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 40rem;
+  margin: 7.5rem auto;
+}
+
+#krellian-console .description .detail,
+#krellian-consulting .description .detail {
+  width: 100%;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+#krellian-console .description .detail {
+  max-width: 35rem;
+  margin: 9.5rem auto;
+}
+
+#krellian-consulting .description .detail {
+  max-width: 39.3rem;
+  margin: 10.15rem auto;
+}
+
+.button {
+  margin: 0 auto;
+}
+
+
+/*#intro {
   height: 35rem;
   background-image: url('../images/blueprint.jpg');
   background-color: #0d5b9d;
@@ -58,24 +114,9 @@
 
 .button {
   display: block;
-  box-sizing: border-box;
   width: 12rem;
-  height: 4rem;
-  font-size: 1.7rem;
-  background-color: #90bc5c;
-  padding: 0.8rem 1rem;
-  border-radius: 0.5rem;
-  color: #fff;
-  text-decoration: none;
   margin: 2rem auto;
-  border: none;
-  font-family: "Open Sans", sans-serif;
   margin-bottom: 0;
-}
-
-.button:hover, .button:active {
-  background-color: #6d953d;
-  text-decoration: none;
 }
 
 #services #illustrations {
@@ -85,3 +126,4 @@
 #services img {
   width: 18rem;
 }
+*/

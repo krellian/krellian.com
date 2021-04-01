@@ -1,4 +1,44 @@
-#intro {
+#krellian-console,
+#krellian-consulting {
+  display: block;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#krellian-console .illustration img,
+#krellian-consulting .illustration img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#krellian-console .description .detail,
+#krellian-consulting .description .detail {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0;
+}
+
+#krellian-console .detail img {
+  height: 2.5rem;
+}
+
+#krellian-consulting .detail img {
+  height: 3.1rem;
+}
+
+#krellian-console .detail p,
+#krellian-consulting .detail p {
+  max-width: 27rem;
+  display: block;
+  margin: 1rem auto;
+}
+
+/*#intro {
   height: 17.5rem;
 }
 
@@ -12,4 +52,4 @@
 
 #intro h2 {
   font-size: 2rem;
-}
+}*/
