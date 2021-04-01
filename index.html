@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
   <head>
     <!--
     The Krell were an advanced alien race who built a vast underground computer
@@ -11,24 +11,24 @@
     -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Krellian - Interactive Digital Signage</title>
+    <title>Krellian - Smart Buildings</title>
     <link rel="icon" href="images/icon.svg" />
     <link rel="stylesheet" type="text/css" href="css/site.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css" />
     <link rel="stylesheet" type="text/css" href="css/lib/glide.core.min.css">
     <link rel="stylesheet" media="(max-width: 959px)" href="css/site-mobile.css" />
     <link rel="stylesheet" media="(max-width: 959px)" href="css/home-mobile.css" />
-    <meta name="description" content="Interactive digital signage, built on web standards. Simple, reliable, secure. For retail, hospitality, entertainment, advertising, healthcare, museums, travel and automation." />
+    <meta name="description" content="Make your premises smarter, safer and more sustainable." />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@KrellianUK" />
-    <meta property="og:title" content="Krellian" />
-    <meta property="og:description" content="Interactive Digital Signage" />
+    <meta name="twitter:site" content="@Krellian" />
+    <meta property="og:title" content="Krellian - Smart Buildings" />
+    <meta property="og:description" content="Make your premises smarter, safer and more sustainable." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://krellian.com" />
     <meta property="og:image" content="https://krellian.com/images/banner.png" />
     <script src="js/lib/glide.min.js"></script>
     <script src="/js/site.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/use-cases.js"></script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16744701-3"></script>
@@ -50,46 +50,65 @@
       <ul id="main-navigation-list">
         <li><a class="selected" href="/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/products/box-c19">Products</a></li>
+        <li><a href="/products">Products</a></li>
         <li><a href="/services">Services</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
 
     <section id="intro" class="light-section">
-      <div class="illustration">
-        <img src="images/kiosk_hardware.jpg" alt="Interactive kiosk and digital signage hardware" />
-      </div>
+      <div class="illustration"></div>
       <div class="description">
         <div class="detail">
-          <h1>Interactive digital signage, built on web standards.</h1>
-          <h2>Simple, reliable, secure.</h2>
+          <h1>Smart Buildings</h1>
+          <h2>Make your premises smarter, safer and more sustainable.</h2>
           <a href="#register" class="button">Register Interest</a>
         </div>
       </div>
     </section>
 
-    <section id="krellian-os" class="dark-section">
+    <section id="webthings" class="light-section">
       <div class="illustration">
-        <img src="images/krellian_os_screenshot.png" alt="Krellian OS screenshot" />
+        <a href="https://webthings.io">
+          <img src="images/things.svg" alt="Drawings of connected devices" />
+        </a>
       </div>
       <div class="description">
-        <div class="detail">
-          <img src="images/krellian_os_wordmark.svg" alt="Krellian OS" />
-          <p>A simple and reliable web-based operating system for interactive kiosks and digital signage.</p>
-        </div>
+          <a href="https://webthings.io">
+            <img src="about/images/webthings_logo.svg" alt="WebThings" />
+          </a>
+          <p>The unified smart building platform.</p>
+          <a href="https://webthings.io">Learn More &#187;</a>
+      </div>
+    </section>
+
+    <section id="krellian-hub" class="dark-section">
+      <div class="illustration">
+        <a href="/products/hub">
+          <img src="products/hub/images/krellian_hub.png" alt="A hub with a black metal case featuring cooling fins and external antennas" />
+        </a>
+      </div>
+      <div class="description">
+        <a href="/products/hub">
+          <img src="products/hub/images/krellian_hub_wordmark.svg" alt="Krellian Hub" />
+        </a>
+        <p>Unify your smart building with an enterprise WoT gateway.</p>
+        <a href="/products/hub">Learn More &#187;</a>
       </div>
     </section>
 
     <section id="krellian-console" class="light-section">
       <div class="illustration">
-        <img src="images/krellian_console_screenshot.png" alt="Krellian Console screenshot" />
+        <a href="/services/console">
+          <img src="services/console/images/krellian_console_screenshot.png" alt="Krellian Console screenshot" />
+        </a>
       </div>
       <div class="description">
-        <div class="detail">
-          <img src="images/krellian_console_wordmark.svg" alt="Krellian Console" />
-          <p>Securely monitor, control and deploy web content to screens over the internet.</p>
-        </div>
+        <a href="/services/console">
+          <img src="services/console/images/krellian_console_wordmark.svg" alt="Krellian Console" />
+        </a>
+        <p>Securely monitor and control multiple premises via the cloud.</p>
+        <a href="/services/console">Learn More &#187;</a>
       </div>
     </section>
 
@@ -99,32 +118,8 @@
           <ul class="glide__slides">
             <li class="glide__slide">
               <figure class="use-case">
-                <img src="images/digital_billboard.jpg" alt="Outdoor digital billboard" />
-                <figcaption>Advertising</figcaption>
-              </figure>
-            </li>
-            <li class="glide__slide">
-              <figure class="use-case">
-                <img src="images/self_check_in_kiosk.jpg" alt="Self check-in kiosk in hotel" />
-                <figcaption>Hospitality</figcaption>
-              </figure>
-            </li>
-            <li class="glide__slide">
-              <figure class="use-case">
-                <img src="images/waiting_room.jpg" alt="Digital information board in waiting room" />
-                <figcaption>Healthcare</figcaption>
-              </figure>
-            </li>
-            <li class="glide__slide">
-              <figure class="use-case">
-                <img src="images/interactive_exhibit.jpg" alt="Interactive exhibit in museum" />
-                <figcaption>Museums</figcaption>
-              </figure>
-            </li>
-            <li class="glide__slide">
-              <figure class="use-case">
-                <img src="images/departure_board.jpg" alt="Departure board in airport" />
-                <figcaption>Travel</figcaption>
+                <img src="images/office.jpg" alt="An office with computers at desks" />
+                <figcaption>Office</figcaption>
               </figure>
             </li>
             <li class="glide__slide">
@@ -135,14 +130,32 @@
             </li>
             <li class="glide__slide">
               <figure class="use-case">
+                <img src="images/self_check_in_kiosk.jpg" alt="Self check-in kiosk in hotel" />
+                <figcaption>Hospitality</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
                 <img src="images/digital_menus.jpg" alt="Digital menus in cinema" />
                 <figcaption>Entertainment</figcaption>
               </figure>
             </li>
             <li class="glide__slide">
               <figure class="use-case">
+                <img src="images/waiting_room.jpg" alt="Digital information board in waiting room" />
+                <figcaption>Healthcare</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
                 <img src="images/smart_home_control_panel.jpg" alt="Smart home control panel" />
-                <figcaption>Automation</figcaption>
+                <figcaption>Housing</figcaption>
+              </figure>
+            </li>
+            <li class="glide__slide">
+              <figure class="use-case">
+                <img src="images/departure_board.jpg" alt="Departure board in airport" />
+                <figcaption>Travel</figcaption>
               </figure>
             </li>
           </ul>
@@ -156,14 +169,14 @@
 
     <section id="supported-by" class="light-section">
       <h2>Supported by</h2>
+      <a href="https://www.startupschool.org/">
+        <img src="images/startup_school.png" alt="YCombinator Startup School" />
+      </a>
       <a href="https://www.northeastlep.co.uk/">
         <img src="images/north_east_lep.png" alt="North East Local Enterprise Partnership" />
       </a>
       <a href="https://www.highpotentialstartups.co.uk/">
         <img src="images/high_potential_startups.png" alt="High Potential Startups" />
-      </a>
-      <a href="https://www.northeastgrowthhub.co.uk/">
-        <img src="images/north_east_growth_hub.png" alt="North East Growth Hub" />
       </a>
     </section>
 
@@ -199,7 +212,6 @@
           <li><a href="https://medium.com/krellian">Blog</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a href="/privacy">Privacy</a></li>
-          <li><a href="/press">Press</a></li>
         </ul>
       </nav>
       <nav id="social">
@@ -208,7 +220,7 @@
         <a id="twitter-icon" href="https://twitter.com/krellian"></a>
       </nav>
       <span id="copyright">
-        &copy; Krellian Ltd. 2020
+        &copy; Krellian Ltd. 2021
       </span>
     </footer>
 

@@ -1,0 +1,45 @@
+#krellian-hub {
+  height: 35rem;
+  display: flex;
+  flex-direction: reverse;
+}
+
+#krellian-hub .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+  margin: 8.2rem auto;
+}
+
+#krellian-hub .description .detail {
+  width: 100%;
+  max-width: 35rem;
+  margin: 9.5rem auto;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+#krellian-player {
+  height: 35rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#krellian-player .illustration img {
+  display: block;
+  width: 100%;
+  max-width: 25rem;
+  margin: 8.75rem auto;
+}
+
+#krellian-player .description .detail {
+  width: 100%;
+  max-width: 35rem;
+  margin: 9rem auto;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.button {
+  margin: 0 auto;
+}

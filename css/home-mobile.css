@@ -1,15 +1,10 @@
-#intro, #krellian-os, #krellian-console {
+#intro {
   display: block;
-  height: auto;
+  background-image: url('../images/smart_buildings_hero-mobile.png');
 }
 
-#intro .illustration img,
-#krellian-os .illustration img,
-#krellian-console .illustration img {
-  display: block;
-  width: 100%;
-  max-width: 50rem;
-  margin: 0 auto;
+#intro .illustration {
+  padding: 0.25rem;
 }
 
 #intro .description .detail {
@@ -30,40 +25,57 @@
 }
 
 #intro h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #intro .button {
-  margin: 2rem auto;
+  margin: 1.5rem auto;
 }
 
-#krellian-os, #krellian-console {
+#krellian-console,
+#krellian-hub,
+#webthings {
+  display: block;
+  height: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-#krellian-os .description .detail,
-#krellian-console .description .detail {
+#krellian-console .illustration img,
+#krellian-hub .illustration img,
+#webthings .illustration img {
+  display: block;
   width: 100%;
-  max-width: 100%;
-  font-size: 1.3rem;
-  box-sizing: border-box;
-  padding: 1rem;
-  margin: 0;
+  margin: 0 auto;
 }
 
-#krellian-os .detail img,
-#krellian-console .detail img {
+#krellian-console .illustration img {
+  max-width: 50rem;
+}
+
+#krellian-hub .illustration img{
+  max-width: 36rem;
+}
+
+#webthings .illustration img {
+  max-width: 28.4rem;
+  height: auto;
+}
+
+#krellian-console .description img,
+#krellian-hub .description img {
   height: 2.5rem;
 }
 
-#krellian-os .detail p,
-#krellian-console .detail p {
+#webthings .description img {
+  height: 3.5rem;
+}
+
+#krellian-console .description p,
+#krellian-hub .description p,
+#webthings .description p {
   max-width: 27rem;
   display: block;
   margin: 1rem auto;
-}
-
-#use-cases {
-  padding: 2rem 5rem;
+  font-size: 1.3rem;
 }

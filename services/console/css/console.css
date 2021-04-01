@@ -1,0 +1,110 @@
+#intro {
+  height: 35rem;
+  display: flex;
+}
+
+#intro {
+  flex-direction: row-reverse;
+}
+
+#intro .description .detail {
+  width: 100%;
+  max-width: 52rem;
+  margin: 10.37rem auto;
+}
+
+#intro .illustration .drawing {
+  display: block;
+  height: 18.6rem;
+  margin: 6.35rem auto 0 auto;
+}
+
+#intro .illustration .wordmark {
+  display: block;
+  height: 2.7rem;
+  margin: 1rem auto 6.35rem auto;
+}
+
+#intro h1 {
+  display: block;
+  width: 100%;
+  font-size: 2.9rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin: 0;
+}
+
+#intro h2 {
+  font-size: 2.4rem;
+  color: #666;
+  margin: 0.5rem 0 0 0;
+}
+
+#benefits {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#benefits .one-liner {
+    display: block;
+    font-size: 2.4rem;
+    text-align: center;
+    max-width: 81.7rem;
+    margin: 1rem auto;
+}
+
+#key-benefits {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+#benefits .screenshot {
+  display: block;
+  width: 80rem;
+  margin: 4rem auto 2rem auto;
+}
+
+#key-benefits .benefit {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+#key-benefits .benefit h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+
+#key-benefits .benefit p {
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+#standards {
+  padding: 4rem;
+}
+
+#standards h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0;
+}
+
+#standards p {
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.7rem;
+  padding-bottom: 0;
+  max-width: 45rem;
+}
+
+#standards img {
+  display: block;
+  margin: 0 auto;
+  height: 9rem;
+}

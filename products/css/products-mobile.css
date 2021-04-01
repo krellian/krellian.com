@@ -1,0 +1,51 @@
+#krellian-hub,
+#krellian-player {
+  display: block;
+  height: auto;
+}
+
+#krellian-hub .illustration img,
+#krellian-player .illustration img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#krellian-hub .illustration img{
+  max-width: 36rem;
+}
+
+#krellian-player .illustration img {
+  max-width: 25rem;
+}
+
+#krellian-hub,
+#krellian-player {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#krellian-hub .description .detail,
+#krellian-player .description .detail {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0;
+}
+
+#krellian-hub .detail img {
+  height: 2.5rem;
+}
+
+#krellian-player .detail img {
+  height: 3.1rem;
+}
+
+#krellian-hub .detail p,
+#krellian-player .detail p {
+  max-width: 27rem;
+  display: block;
+  margin: 1rem auto;
+}

@@ -80,3 +80,7 @@ header #logo {
   padding: 2rem;
   box-sizing: border-box;
 }
+
+#use-cases {
+  padding: 2rem 5rem;
+}
