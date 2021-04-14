@@ -4,7 +4,8 @@
 }
 
 #intro .illustration {
-  padding: 0.25rem;
+  padding: 0;
+  height: 19rem;
 }
 
 #intro .description .detail {
@@ -33,8 +34,7 @@
 }
 
 #krellian-console,
-#krellian-hub,
-#webthings {
+#krellian-hub {
   display: block;
   height: auto;
   padding-top: 1rem;
@@ -42,8 +42,7 @@
 }
 
 #krellian-console .illustration img,
-#krellian-hub .illustration img,
-#webthings .illustration img {
+#krellian-hub .illustration img {
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -57,25 +56,15 @@
   max-width: 36rem;
 }
 
-#webthings .illustration img {
-  max-width: 28.4rem;
-  height: auto;
-}
-
 #krellian-console .description img,
 #krellian-hub .description img {
   height: 2.5rem;
 }
 
-#webthings .description img {
-  height: 3.5rem;
-}
-
-#krellian-console .description p,
-#krellian-hub .description p,
-#webthings .description p {
+#krellian-console .description,
+#krellian-hub .description {
   max-width: 27rem;
   display: block;
   margin: 1rem auto;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }

@@ -43,8 +43,16 @@
   display: block;
 }
 
+#key-benefits .benefit h1 {
+  font-size: 2.4rem;
+}
+
 #benefits p {
   padding: 2rem;
+}
+
+#key-benefits p {
+  padding: 1rem;
 }
 
 #benefits .benefit {
@@ -78,12 +86,24 @@
   box-sizing: border-box;
 }
 
+.feature .description h1 {
+  font-size: 2.4rem;
+}
+
 #hardware, #software, #standards {
   display: block;
   padding: 2rem;
 }
 
-#hardware img, #software img, #standards img {
+#hardware h1,
+#software h1,
+#standards h1 {
+  font-size: 2.4rem;
+}
+
+#hardware img,
+#software img,
+#standards img {
   width: 100%;
   height: auto;
 }
@@ -104,7 +124,7 @@
 }
 
 #software img {
-  max-width: 25rem;
+  max-width: 20rem;
 }
 
 #standards img {

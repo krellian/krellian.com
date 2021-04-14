@@ -33,7 +33,6 @@
   font-weight: normal;
 }
 
-#webthings,
 #krellian-hub,
 #krellian-console {
   display: flex;
@@ -42,17 +41,15 @@
 
 #webthings,
 #krellian-console {
-  flex-direction: row;
-}
-
-#krellian-hub {
   flex-direction: row-reverse;
 }
 
-#webthings .illustration,
+#krellian-hub {
+  flex-direction: row;
+}
+
 #krellian-hub .illustration,
 #krellian-console .illustration,
-#webthings .description,
 #krellian-hub .description,
 #krellian-console .description {
   display: flex;
@@ -65,18 +62,9 @@
   box-sizing: border-box;
 }
 
-#webthings .description img {
-  height: 5rem;
-}
-
-#webthings .description p,
 #krellian-hub .description p,
 #krellian-console .description p {
   max-width: 35rem;
-}
-
-#webthings .illustration img {
-  height: 20rem;
 }
 
 #krellian-hub .illustration img {
@@ -86,4 +74,5 @@
 
 #krellian-console .illustration img {
   width: 48rem;
+  box-shadow: 0 0 8px #666;
 }
