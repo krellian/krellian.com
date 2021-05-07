@@ -1,0 +1,35 @@
+body {
+  min-width: 32rem;
+  min-height: 48rem;
+}
+
+#krellian-bird {
+  width: calc(100% - 2rem);
+  max-width: 46rem;
+}
+
+#wordmark {
+  width: calc(100% - 2rem);
+  max-width: 35rem;
+}
+
+header {
+  height: 15rem;
+}
+
+main {
+  font-size: 1.3rem;
+}
+
+main p {
+  margin: 1em;
+}
+
+footer #projects img {
+  height: 3rem;
+  margin: 1rem;
+}
+
+footer #projects a:last-child {
+  margin-right: 0;
+}
