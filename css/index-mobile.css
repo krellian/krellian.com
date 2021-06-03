@@ -4,12 +4,11 @@ body {
 }
 
 #krellian-bird {
-  width: calc(100% - 2rem);
-  max-width: 46rem;
+  width: 60%;
 }
 
 #wordmark {
-  width: calc(100% - 2rem);
+  width: calc(100% - 10rem);
   max-width: 35rem;
 }
 
