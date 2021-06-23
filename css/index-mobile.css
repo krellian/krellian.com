@@ -21,7 +21,8 @@ main {
 }
 
 main p {
-  margin: 1em;
+  margin: 1rem;
+  max-width: 25rem;
 }
 
 footer #projects img {
