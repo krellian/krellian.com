@@ -1,10 +1,10 @@
-#krellian-console,
+#krellian-cloud,
 #krellian-consulting {
   height: 35rem;
   display: flex;
 }
 
-#krellian-console {
+#krellian-cloud {
   flex-direction: row;
 }
 
@@ -12,13 +12,13 @@
   flex-direction: row-reverse;
 }
 
-#krellian-console .description,
+#krellian-cloud .description,
 #krellian-consulting .description {
   padding: 0 2rem;
   box-sizing: border-box;
 }
 
-#krellian-console .illustration img {
+#krellian-cloud .illustration img {
   display: block;
   width: 100%;
   max-width: 48rem;
@@ -32,14 +32,14 @@
   margin: 7.5rem auto;
 }
 
-#krellian-console .description .detail,
+#krellian-cloud .description .detail,
 #krellian-consulting .description .detail {
   width: 100%;
   text-align: center;
   font-size: 1.7rem;
 }
 
-#krellian-console .description .detail {
+#krellian-cloud .description .detail {
   max-width: 35rem;
   margin: 9.5rem auto;
 }
