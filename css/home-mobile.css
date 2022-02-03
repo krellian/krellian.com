@@ -33,7 +33,7 @@
   margin: 1.5rem auto;
 }
 
-#krellian-console,
+#krellian-cloud,
 #krellian-hub {
   display: block;
   height: auto;
@@ -41,14 +41,14 @@
   padding-bottom: 1rem;
 }
 
-#krellian-console .illustration img,
+#krellian-cloud .illustration img,
 #krellian-hub .illustration img {
   display: block;
   width: 100%;
   margin: 0 auto;
 }
 
-#krellian-console .illustration img {
+#krellian-cloud .illustration img {
   max-width: 50rem;
 }
 
@@ -56,12 +56,12 @@
   max-width: 36rem;
 }
 
-#krellian-console .description img,
+#krellian-cloud .description img,
 #krellian-hub .description img {
   height: 2.5rem;
 }
 
-#krellian-console .description,
+#krellian-cloud .description,
 #krellian-hub .description {
   max-width: 27rem;
   display: block;

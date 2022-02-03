@@ -34,13 +34,13 @@
 }
 
 #krellian-hub,
-#krellian-console {
+#krellian-cloud {
   display: flex;
   height: 35rem;
 }
 
 #webthings,
-#krellian-console {
+#krellian-cloud {
   flex-direction: row-reverse;
 }
 
@@ -49,9 +49,9 @@
 }
 
 #krellian-hub .illustration,
-#krellian-console .illustration,
+#krellian-cloud .illustration,
 #krellian-hub .description,
-#krellian-console .description {
+#krellian-cloud .description {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@
 }
 
 #krellian-hub .description p,
-#krellian-console .description p {
+#krellian-cloud .description p {
   max-width: 35rem;
 }
 
@@ -72,7 +72,7 @@
   width: 36rem;
 }
 
-#krellian-console .illustration img {
+#krellian-cloud .illustration img {
   width: 48rem;
   box-shadow: 0 0 8px #666;
 }

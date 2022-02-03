@@ -214,7 +214,7 @@
   };
 
   /**
-   * Outputs warning message to the bowser console.
+   * Outputs warning message to the browser console.
    *
    * @param  {String} msg
    * @return {Void}
