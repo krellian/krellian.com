@@ -45,8 +45,12 @@
 
     <section id="bookings" class="light-section">
       <h1>Book a Meeting</h1>
-      <p>Select any time below to book a meeting.</p>
-      <iframe src="https://krellian.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframekrellian" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://krellian.youcanbook.me"){document.getElementById("ycbmiframekrellian").style.height = event.data + "px";}}, false);</script>
+      
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/krellian" style="min-width:320px;height:1000px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <!-- Calendly inline widget end -->
+
     </section>
 
     <footer>
