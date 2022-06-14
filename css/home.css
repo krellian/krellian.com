@@ -1,19 +1,28 @@
 #intro {
-  height: 35rem;
+  height: 50rem;
   display: flex;
   flex-direction: row-reverse;
-  background-color: #030505;
-  background-image: url('../images/smart_buildings_hero.png');
-  background-size: auto 35rem;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #e6e6e6;
   color: #fff;
+}
+
+#intro .illustration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .illustration img {
+  width: calc(100% - 2rem);
+  max-height: 54rem;
+  margin: 1rem;
 }
 
 #intro .description .detail {
   width: 100%;
   max-width: 45rem;
-  margin: 7.75rem auto;
+  margin: 8.4rem auto;
 }
 
 #intro h1 {
@@ -21,16 +30,21 @@
   width: 100%;
   font-size: 3.5rem;
   font-weight: 600;
-  color: #fff;
+  color: #1a1a1a;
   line-height: 1.2;
   margin: 0;
 }
 
 #intro h2 {
   font-size: 2.6rem;
-  margin: 0.5rem 0 0 0;
-  color: #fff;
   font-weight: normal;
+  margin: 0.5rem 0 0 0;
+  color: #666;
+}
+
+#intro .detail a.learn-more {
+  font-size: 1.7rem;
+  display: block;
 }
 
 #krellian-hub,
@@ -73,6 +87,5 @@
 }
 
 #krellian-cloud .illustration img {
-  width: 48rem;
-  box-shadow: 0 0 8px #666;
+  width: 33rem;
 }

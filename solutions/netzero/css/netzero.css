@@ -1,0 +1,109 @@
+#intro {
+  height: 50rem;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #e6e6e6;
+  color: #fff;
+}
+
+#intro .illustration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .illustration img {
+  width: calc(100% - 2rem);
+  max-height: 54rem;
+  margin: 1rem;
+}
+
+#intro .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+#intro h1 {
+  display: block;
+  width: 100%;
+  font-size: 3.2rem;
+  font-weight: normal;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin: 0;
+}
+
+#intro .description .button {
+  margin: 2rem 0;
+}
+
+#benefits {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#key-benefits {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+#key-benefits .benefit {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+#key-benefits .benefit img {
+  width: 12.8rem;
+  height: 12.8rem;
+}
+
+#key-benefits .benefit h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+
+#key-benefits .benefit p {
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+#products {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#krellian-hub, #krellian-cloud {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+}
+
+#krellian-hub p,
+#krellian-cloud p {
+  max-width: 35rem;
+  text-align: center;
+}
+
+#krellian-hub img.illustration, #krellian-cloud img.illustration {
+  margin-bottom: 4rem;
+}
+
+#krellian-hub img.illustration {
+  display: block;
+  width: 36rem;
+}
+
+#krellian-cloud img.illustration {
+  width: 33rem;
+}
