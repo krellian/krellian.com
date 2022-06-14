@@ -10,7 +10,7 @@
 #intro .description .detail {
   width: 100%;
   max-width: 52rem;
-  margin: 8.57rem auto;
+  margin: 10.52rem auto;
 }
 
 #intro .illustration .photo {
@@ -35,12 +35,6 @@
   margin: 0;
 }
 
-#intro h2 {
-  font-size: 2.4rem;
-  color: #666;
-  margin: 0.5rem 0 0 0;
-}
-
 #benefits {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -50,7 +44,7 @@
     display: block;
     font-size: 2.4rem;
     text-align: center;
-    max-width: 81.7rem;
+    max-width: 84rem;
     margin: 2rem auto;
 }
 

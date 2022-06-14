@@ -15,20 +15,18 @@
   margin: 2rem;
 }
 
-#intro .description .detail {
+#intro .description {
+  display: block;
   text-align: center;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
   padding: 1rem;
-  margin: 0;
+  box-sizing: border-box;
 }
 
 #intro h1 {
   display: block;
   width: calc(100% - 2rem);
   margin: 0 auto;
-  max-width: 35rem;
+  max-width: 45rem;
   font-size: 2.5rem;
 }
 
@@ -40,36 +38,60 @@
   margin: 1.5rem auto;
 }
 
+#benefits {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#key-benefits {
+  display: block;
+}
+
+#key-benefits .benefit h1 {
+  font-size: 2.4rem;
+}
+
+#benefits .benefit {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+#key-benefits p {
+  padding: 0;
+}
+
+#products {
+  display: block;
+}
+
 #krellian-cloud,
 #krellian-hub {
   display: block;
   height: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
 }
 
-#krellian-cloud .illustration img,
-#krellian-hub .illustration img {
+#krellian-cloud img.illustration,
+#krellian-hub img.illustration {
   display: block;
   width: 100%;
   margin: 0 auto;
 }
 
-#krellian-cloud .illustration img {
-  max-width: 50rem;
-}
-
-#krellian-hub .illustration img{
+#krellian-cloud img.illustration, #krellian-hub img.illustration {
   max-width: 36rem;
 }
 
-#krellian-cloud .description img,
-#krellian-hub .description img {
+#krellian-cloud img.wordmark,
+#krellian-hub img.wordmark {
   height: 2.5rem;
 }
 
-#krellian-cloud .description,
-#krellian-hub .description {
+#krellian-cloud p,
+#krellian-hub p {
   max-width: 27rem;
   display: block;
   margin: 1rem auto;
