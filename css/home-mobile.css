@@ -1,18 +1,11 @@
 #intro {
   display: block;
-  height: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  background-image: url('../images/smart_buildings_hero-mobile.png');
 }
 
 #intro .illustration {
   padding: 0;
-  height: auto;
-}
-
-#intro .illustration img {
-  width: calc(100% - 4rem);
-  margin: 2rem;
+  height: 19rem;
 }
 
 #intro .description .detail {
@@ -38,6 +31,44 @@
 
 #intro .button {
   margin: 1.5rem auto;
+}
+
+#netzero {
+  display: block;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#netzero .illustration {
+  padding: 0;
+  height: auto;
+}
+
+#netzero .illustration img {
+  width: calc(100% - 4rem);
+  margin: 2rem;
+}
+
+#netzero .description .detail {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0;
+}
+
+#netzero h1 {
+  display: block;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  max-width: 35rem;
+  font-size: 2.5rem;
+}
+
+#netzero h2 {
+  font-size: 1.5rem;
 }
 
 #krellian-cloud,
