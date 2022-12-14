@@ -1,31 +1,66 @@
 #intro {
-  height: 50rem;
+  height: 35rem;
   display: flex;
   flex-direction: row-reverse;
+  background-color: #030505;
+  background-image: url('../images/smart_buildings_hero.png');
+  background-size: auto 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#intro .description .detail {
+  width: 100%;
+  max-width: 45rem;
+  margin: 7.75rem auto;
+}
+
+#intro h1 {
+  display: block;
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
+}
+
+#intro h2 {
+  font-size: 2.6rem;
+  margin: 0.5rem 0 0 0;
+  color: #fff;
+  font-weight: normal;
+}
+
+#netzero {
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
   background-color: #e6e6e6;
   color: #fff;
 }
 
-#intro .illustration {
+#netzero .illustration {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#intro .illustration img {
+#netzero .illustration img {
   width: calc(100% - 2rem);
   max-height: 54rem;
   margin: 1rem;
 }
 
-#intro .description .detail {
+#netzero .description .detail {
   width: 100%;
   max-width: 45rem;
-  margin: 8.4rem auto;
+  margin: 11.9rem auto;
 }
 
-#intro h1 {
+#netzero h1 {
   display: block;
   width: 100%;
   font-size: 3.5rem;
@@ -35,14 +70,14 @@
   margin: 0;
 }
 
-#intro h2 {
+#netzero h2 {
   font-size: 2.6rem;
   font-weight: normal;
   margin: 0.5rem 0 0 0;
   color: #666;
 }
 
-#intro .detail a.learn-more {
+#netzero .detail a.learn-more {
   font-size: 1.7rem;
   display: block;
 }
@@ -53,13 +88,12 @@
   height: 35rem;
 }
 
-#webthings,
 #krellian-cloud {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 #krellian-hub {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 #krellian-hub .illustration,
