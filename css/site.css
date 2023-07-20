@@ -164,6 +164,17 @@ input[type=submit]:active {
   padding: 0;
 }
 
+#left-arrow, #right-arrow {
+  opacity: 0.5;
+}
+
+#left-arrow:hover, 
+#left-arrow:active,
+#right-arrow:hover,
+#right-arrow:active {
+  opacity: 0.75;
+}
+
 #use-cases figure {
   margin: 0;
 }

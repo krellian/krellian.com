@@ -12,118 +12,48 @@
   flex-direction: row-reverse;
 }
 
+#krellian-cloud .illustration,
+#krellian-consulting .illustration,
+#krellian-cloud .description,
+#krellian-consulting .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
 #krellian-cloud .description,
 #krellian-consulting .description {
   padding: 0 2rem;
   box-sizing: border-box;
 }
 
-#krellian-cloud .illustration img {
-  display: block;
-  width: 100%;
-  max-width: 48rem;
-  margin: 3.1rem auto;
+#krellian-consulting .description p,
+#krellian-cloud .description p {
+  max-width: 35rem;
+}
+
+#krellian-consulting .detail,
+#krellian-cloud .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #krellian-consulting .illustration img {
   display: block;
-  width: 100%;
-  max-width: 40rem;
-  margin: 7.5rem auto;
+  width: 36rem;
 }
 
-#krellian-cloud .description .detail,
-#krellian-consulting .description .detail {
-  width: 100%;
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-#krellian-cloud .description .detail {
-  max-width: 35rem;
-  margin: 9.5rem auto;
-}
-
-#krellian-consulting .description .detail {
-  max-width: 39.3rem;
-  margin: 10.15rem auto;
+#krellian-cloud .illustration img {
+  width: 33rem;
 }
 
 .button {
   margin: 0 auto;
 }
 
-
-/*#intro {
-  height: 35rem;
-  background-image: url('../images/blueprint.jpg');
-  background-color: #0d5b9d;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-}
-
-.shade {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  padding: 12.5rem 2rem;
-  box-sizing: border-box;
-}
-
-#intro h1 {
-  font-size: 3.5rem;
-  text-align: center;
-  color: #fff;
-  margin: 0;
-  font-weight: 600;
-}
-
-#intro h2 {
-  font-size: 2.6rem;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  font-weight: 400;
-  margin-top: 1rem;
-}
-
-#services {
-  padding: 4rem 2rem;
-}
-
-.box {
-  border-radius: 0.5rem;
-  background-color: white;
-  max-width: 85rem;
-  font-size: 1.7rem;
-  padding: 2rem 4rem;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-  box-sizing: border-box;
-}
-
-.box h2 {
-  margin-top: 0;
-  text-align: center;
-}
-
-.button {
-  display: block;
-  width: 12rem;
-  margin: 2rem auto;
-  margin-bottom: 0;
-}
-
-#services #illustrations {
-  text-align: center;
-}
-
-#services img {
-  width: 18rem;
-}
-*/
