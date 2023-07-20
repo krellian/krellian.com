@@ -31,9 +31,9 @@
   margin: 0;
 }
 
-#intro .button {
+#intro .description .detail .button {
   display: block;
-  width: 16rem;
+  width: 20rem;
   margin: 2rem auto;
   text-align: center;
 }
@@ -41,6 +41,10 @@
 #benefits {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+#left-arrow, #right-arrow {
+  display: none;
 }
 
 #key-benefits {

@@ -1,0 +1,57 @@
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+#support {
+  padding-bottom: 4rem;
+}
+
+#support-methods {
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.support-method {
+  display: inline-block;
+  padding: 0;
+  margin: 1rem;
+  width: 30rem;
+  height: 30rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.support-method a {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.support-method h2 {
+  font-size: 2.6rem;
+  margin: 1rem 0;
+}
+
+.support-method img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.support-method p {
+  font-size: 1.4rem;
+  max-width: 20rem;
+  margin: 1rem 0;
+}

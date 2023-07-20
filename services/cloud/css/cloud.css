@@ -4,13 +4,19 @@
 }
 
 #intro {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 #intro .description .detail {
-  width: 100%;
-  max-width: 37rem;
-  margin: 10.52rem auto;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+#intro .description .detail .button {
+  margin: 1rem 0 0 0;
 }
 
 #intro .illustration .drawing {
@@ -38,32 +44,95 @@
 #intro h2 {
   font-size: 2.4rem;
   color: #666;
-  margin: 0.5rem 0 0 0;
+  margin: 1rem 0 0 0;
+  font-weight: 400;
 }
+
+#screenshot-carousel {
+  margin: 2rem auto;
+}
+
+/*#screenshots #arrows {
+  position: absolute;
+  top: calc(50% - 2rem);
+  height: 0;
+  width: 100%;
+}*/
+
+#carousel-controls {
+  display: block;
+  text-align: center;
+}
+
+#screenshots #left-arrow {
+  /*position: absolute;
+  left: -4rem;*/
+  background-image: url('/images/left_arrow.svg');
+  background-color: transparent;
+  border: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  margin: 1rem;
+}
+
+#screenshot-selectors {
+  display: inline-block;
+}
+
+.screenshot-selector {
+  background-image: url('/images/bullet.svg');
+  background-color: transparent;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0.5rem;
+  border: none;
+  opacity: 0.5;
+}
+
+.screenshot-selector:hover, .screenshot-selector:active {
+  opacity: 0.75;
+}
+
+.glide__bullet--active, .glide__bullet--active:hover {
+  opacity: 1;
+}
+
+#screenshots #right-arrow {
+  /*position: absolute;
+  right: -4rem;*/
+  background-image: url('/images/right_arrow.svg');
+  background-color: transparent;
+  border: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  margin: 1rem;
+}
+
+.screenshot img {
+  display: block;
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.screenshot figcaption {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
 
 #benefits {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-#benefits .one-liner {
-    display: block;
-    font-size: 2.4rem;
-    text-align: center;
-    max-width: 81.7rem;
-    margin: 1rem auto;
-}
-
 #key-benefits {
   display: flex;
   flex-direction: row;
   margin-top: 2rem;
-}
-
-#benefits .screenshot {
-  display: block;
-  width: 80rem;
-  margin: 4rem auto 2rem auto;
 }
 
 #key-benefits .benefit {
