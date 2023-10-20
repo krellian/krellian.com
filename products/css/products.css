@@ -19,25 +19,44 @@
   font-size: 1.7rem;
 }
 
-#krellian-player {
+#krellian-cloud {
   height: 35rem;
   display: flex;
+}
+
+#krellian-cloud {
   flex-direction: row-reverse;
 }
 
-#krellian-player .illustration img {
-  display: block;
-  width: 100%;
-  max-width: 25rem;
-  margin: 8.75rem auto;
+#krellian-cloud .illustration,
+#krellian-cloud .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
-#krellian-player .description .detail {
-  width: 100%;
+#krellian-cloud .description {
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+#krellian-cloud .description p {
   max-width: 35rem;
-  margin: 9rem auto;
-  text-align: center;
-  font-size: 1.7rem;
+}
+
+#krellian-cloud .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#krellian-cloud .illustration img {
+  width: 33rem;
 }
 
 .button {

@@ -1,11 +1,9 @@
-#krellian-hub,
-#krellian-player {
+#krellian-hub {
   display: block;
   height: auto;
 }
 
-#krellian-hub .illustration img,
-#krellian-player .illustration img {
+#krellian-hub .illustration img {
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -15,18 +13,12 @@
   max-width: 36rem;
 }
 
-#krellian-player .illustration img {
-  max-width: 25rem;
-}
-
-#krellian-hub,
-#krellian-player {
+#krellian-hub {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-#krellian-hub .description .detail,
-#krellian-player .description .detail {
+#krellian-hub .description .detail {
   width: 100%;
   max-width: 100%;
   font-size: 1.3rem;
@@ -39,12 +31,41 @@
   height: 2.5rem;
 }
 
-#krellian-player .detail img {
-  height: 3.1rem;
+#krellian-hub .detail p {
+  max-width: 27rem;
+  display: block;
+  margin: 1rem auto;
 }
 
-#krellian-hub .detail p,
-#krellian-player .detail p {
+
+
+#krellian-cloud {
+  display: block;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#krellian-cloud .illustration img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#krellian-cloud .description .detail {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0;
+}
+
+#krellian-cloud .detail img {
+  height: 2.5rem;
+}
+
+#krellian-cloud .detail p {
   max-width: 27rem;
   display: block;
   margin: 1rem auto;
