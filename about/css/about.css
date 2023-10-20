@@ -90,11 +90,6 @@
   padding: 4rem;
 }
 
-#history.box {
-  display: flex;
-  flex-direction: row;
-}
-
 #principles .logos {
   text-align: center;
   padding: 2rem 2rem 0 2rem;
@@ -128,6 +123,15 @@
 #principles.box p {
   margin: 0;
   padding: 0 1rem 2rem 1rem;
+}
+
+#founder {
+  width: 100%;
+  max-width: 33rem;
+}
+
+#founder figure {
+  margin: 2rem auto;
 }
 
 .button {
