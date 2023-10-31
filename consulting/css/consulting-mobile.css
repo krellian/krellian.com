@@ -1,3 +1,39 @@
-#intro {
+#smart-building-consulting {
+  padding: 0 2rem;
+}
+
+#process {
+  display: block;
+  margin: 2rem 0;
+}
+
+#process .illustration img {
+  width: 100%;
+  max-width: 30rem;
+}
+
+#process .description ol {
+  padding: 0 2rem;
+}
+
+#process .description li {
   height: auto;
+  min-height: 6.4rem;
+  max-width: none;
+}
+
+.examples {
+  display: block;
+}
+
+#wot-consulting {
+  padding: 0 2rem;
+}
+
+#wot-block-diagram {
+  width: calc(100% - 4rem);
+}
+
+#wot-consulting .examples p {
+  max-width: 26rem;
 }
