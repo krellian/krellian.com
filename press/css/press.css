@@ -2,15 +2,34 @@
   margin-top: 2rem;
 }
 
+#press-releases {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
 h1 {
   font-size: 2.6rem;
 }
 
-p {
+p, li {
   font-size: 1.5rem;
 }
 
 p.intro {
   color: #666;
   font-size: 1.8rem;
+}
+
+h2 {
+  color: #666;
+  font-size: 1.6rem;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+hr {
+  margin: 4rem 0;
 }
