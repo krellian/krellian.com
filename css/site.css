@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Open Sans';
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
     src: url("/fonts/opensans-regular.woff") format("woff");
 }
@@ -9,6 +9,12 @@
     font-weight: 600;
     font-style: normal;
     src: url("/fonts/opensans-semibold.woff") format("woff");
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    src: url("/fonts/opensans-bold.woff") format("woff");
 }
 
 html, body {
@@ -103,10 +109,12 @@ header #logo {
 .button, input[type=submit] {
   display: inline-block;
   box-sizing: border-box;
-  height: 4rem;
+  height: 4.8rem;
+  line-height: 4.8rem;
   font-size: 1.7rem;
-  background-color: #90bc5c;
-  padding: 0.8rem 1rem;
+  font-weight: 600;
+  background-color: #238452;
+  padding: auto 1rem;
   border-radius: 0.5rem;
   color: #fff;
   text-decoration: none;
@@ -119,8 +127,17 @@ header #logo {
 .button:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-  background-color: #6d953d;
+  background-color: #28995f;
   text-decoration: none;
+}
+
+.button.secondary {
+  background-color: rgba(0, 0, 0, 0.53);
+  font-weight: normal;
+}
+
+.button.secondary:hover {
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 #use-cases {

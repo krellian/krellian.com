@@ -1,85 +1,49 @@
-#intro {
-  height: 35rem;
-  display: flex;
-  flex-direction: row-reverse;
-  background-color: #030505;
-  background-image: url('../images/smart_buildings_hero.png');
-  background-size: auto 35rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-
-#intro .description .detail {
-  width: 100%;
-  max-width: 45rem;
-  margin: 7.75rem auto;
-}
-
-#intro h1 {
-  display: block;
-  width: 100%;
-  font-size: 3.5rem;
-  font-weight: 600;
-  color: #fff;
-  line-height: 1.2;
-  margin: 0;
-}
-
-#intro h2 {
-  font-size: 2.6rem;
-  margin: 0.5rem 0 0 0;
-  color: #fff;
-  font-weight: normal;
-}
-
-#netzero {
-  height: 50rem;
-  display: flex;
-  flex-direction: row;
-  background-color: #e6e6e6;
-  color: #fff;
-}
-
-#netzero .illustration {
+#hero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-#netzero .illustration img {
-  width: calc(100% - 2rem);
-  max-height: 40rem;
-  margin: 1rem;
-}
-
-#netzero .description .detail {
+  justify-content: center;
+  background-color: #030606;
+  background-image: url('../images/building_background.svg'), linear-gradient(45deg,rgba(3, 6, 6, 1) 0%, rgba(11, 61, 88, 1) 50%, rgba(3, 6, 6, 1) 100%); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 56rem, auto;
+  color: #fff;
+  text-align: center;
   width: 100%;
-  max-width: 45rem;
-  margin: 11.9rem auto;
+  height: 65rem;
 }
 
-#netzero h1 {
-  display: block;
-  width: 100%;
-  font-size: 3.5rem;
+#hero h1 {
+  max-width: 80rem;
+  font-size: 6rem;
+  line-height: 1.25;
+  text-wrap: balance;
   font-weight: 600;
-  color: #1a1a1a;
-  line-height: 1.2;
-  margin: 0;
+  margin: 2rem;
 }
 
-#netzero h2 {
-  font-size: 2.6rem;
-  font-weight: normal;
-  margin: 0.5rem 0 0 0;
-  color: #666;
+#hero h1 em {
+  font-weight: bold;
+  font-style: normal;
+  color: #4ac787;
 }
 
-#netzero .detail a.learn-more {
-  font-size: 1.7rem;
-  display: block;
+#hero h2 {
+  max-width: 80rem;
+  font-size: 1.8rem;
+  text-wrap: balance;
+  font-weight: 400;
+  margin: 2rem;
+}
+
+#hero .cta {
+  margin: 2rem;
+}
+
+#hero .cta .button {
+  width: 14rem;
+  margin: 1rem;
 }
 
 #krellian-hub,
