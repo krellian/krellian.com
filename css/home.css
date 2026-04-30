@@ -46,44 +46,64 @@
   margin: 1rem;
 }
 
-#krellian-hub,
-#krellian-cloud {
-  display: flex;
-  height: 35rem;
-}
-
-#krellian-cloud {
-  flex-direction: row;
-}
-
-#krellian-hub {
-  flex-direction: row-reverse;
-}
-
-#krellian-hub .illustration,
-#krellian-cloud .illustration,
-#krellian-hub .description,
-#krellian-cloud .description {
+#problem {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: 1.7rem;
-  text-align: center;
+  background: linear-gradient(#4e4e4e, #000000);
+  color: #fff;
   padding: 2rem;
-  box-sizing: border-box;
 }
 
-#krellian-hub .description p,
-#krellian-cloud .description p {
-  max-width: 35rem;
+#problem h2 {
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  margin: 2rem;
 }
 
-#krellian-hub .illustration img {
-  display: block;
-  width: 36rem;
+#problem > p {
+  font-size: 2rem;
+  text-wrap: balance;
+  max-width: 62.5rem;
+  text-align: center;
+  margin-top: 0;
 }
 
-#krellian-cloud .illustration img {
-  width: 33rem;
+#problem > img {
+  max-height: 47.5rem;
+  max-width: 45.8rem; 
+  margin: 4rem;
+}
+
+#problems {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  max-width: 128rem;
+}
+
+.problem {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 3rem;
+}
+
+.problem h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
+.problem h3 img {
+  width: 3.2rem;
+  height: 3.2rem;
+  vertical-align: middle;
+  margin: 0rem 0.75rem 0rem 0;
+}
+
+.problem p {
+  font-size: 1.8rem;
+  margin: 1rem 0 0 0 ;
 }

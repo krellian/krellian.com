@@ -10,38 +10,19 @@
     text-wrap: wrap;
 }
 
-#krellian-cloud,
-#krellian-hub {
-  display: block;
-  height: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+#problem > img {
+  width: calc(100% - 4rem);
 }
 
-#krellian-cloud .illustration img,
-#krellian-hub .illustration img {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
+#problems {
+  flex-direction: column;
+  padding: 0;
 }
 
-#krellian-cloud .illustration img {
-  max-width: 50rem;
+.problem h3 {
+  font-size: 1.6rem;
 }
 
-#krellian-hub .illustration img{
-  max-width: 36rem;
-}
-
-#krellian-cloud .description img,
-#krellian-hub .description img {
-  height: 2.5rem;
-}
-
-#krellian-cloud .description,
-#krellian-hub .description {
-  max-width: 27rem;
-  display: block;
-  margin: 1rem auto;
-  font-size: 1.4rem;
+.problem p {
+  font-size: 1.6rem;
 }
