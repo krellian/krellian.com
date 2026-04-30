@@ -126,10 +126,6 @@ h2 {
   margin: 5rem auto;
 }
 
-#smart-building-consulting .button {
-  color: #000;
-}
-
 #wot-consulting {
   text-align: center;
 }
@@ -173,4 +169,9 @@ h2 {
   width: 16rem;
   margin: 3rem;
   vertical-align: middle;
+  filter: grayscale(1);
+}
+
+#trusted-by a:hover img, #trusted-by a:active img {
+ filter: grayscale(0);
 }
