@@ -37,13 +37,14 @@
   margin: 2rem;
 }
 
-#hero .cta {
+.cta {
   margin: 2rem;
 }
 
-#hero .cta .button {
+.cta .button {
   width: 14rem;
   margin: 1rem;
+  text-align: center;
 }
 
 #problem, #solution {
@@ -58,7 +59,7 @@
   color: #fff;
 }
 
-#problem h2, #solution h2 {
+#problem h2, #solution h2, #customers h2 {
   font-weight: bold;
   font-size: 4rem;
   text-align: center;
@@ -179,4 +180,81 @@
 #krellian-cloud a > img {
   max-height: 15rem;
   margin: 7.5rem;
+}
+
+#customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f172a;
+  color: #94a3b8;
+  padding: 2rem;
+}
+
+#customers h2 {
+  width: 80%;
+  max-width: 110rem;
+  color: #fff;
+  text-align: left;
+}
+
+#customers > p {
+  width: 80%;
+  max-width: 110rem;
+  text-align: left;
+  margin-top: 0;
+}
+
+#customers p {
+  font-size: 1.8rem;
+}
+
+#customer-segments {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 110rem;
+}
+
+#customer-segments ul {
+  flex: 1.1;
+  display: grid;
+  padding: 0;
+  margin: 1rem 1rem 1rem 0;
+  list-style-type: none;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 1.5rem;
+}
+
+#customer-segments li {
+  display: block;
+  height: 4.4rem;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px rgba(229, 231, 235, 0.5);
+  color: #fff;
+  background-image: url('../images/checkmark-icon.svg');
+  background-size: 1.6rem;
+  background-position: 1rem center;
+  background-repeat: no-repeat;
+  padding-left: 3.5rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+#early-adopters {
+  flex: 0.9;
+  border-radius: 0.5rem;
+  border: solid 1px rgba(229, 231, 235, 0.5);
+  padding: 0 2rem;
+  margin: 1rem;
+}
+
+#early-adopters h3 {
+  font-size: 1.8rem;
+  color: #34d399;
+  font-weight: 600;
 }
