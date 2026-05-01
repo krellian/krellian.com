@@ -43,3 +43,16 @@
 #krellian-hub p, #krellian-cloud p {
   font-size: 1.6rem;
 }
+
+#customer-segments {
+  flex-direction: column;
+}
+
+#customer-segments ul {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(8, auto);
+}
+
+#customer-segments ul, #customer-segments #early-adopters {
+  margin: 1rem 0;
+}
