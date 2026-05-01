@@ -46,37 +46,43 @@
   margin: 1rem;
 }
 
-#problem {
+#problem, #solution {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(#4e4e4e, #000000);
-  color: #fff;
   padding: 2rem;
 }
 
-#problem h2 {
+#problem {
+  background: linear-gradient(#4e4e4e, #000000);
+  color: #fff;
+}
+
+#problem h2, #solution h2 {
   font-weight: bold;
   font-size: 4rem;
   text-align: center;
   margin: 2rem;
 }
 
-#problem > p {
+#problem > p, #solution > p {
   font-size: 2rem;
   text-wrap: balance;
-  max-width: 62.5rem;
   text-align: center;
   margin-top: 0;
 }
 
-#problem > img {
+#problem > p {
+  max-width: 62.5rem;
+}
+
+#problem .illustration {
   max-height: 47.5rem;
   max-width: 45.8rem; 
   margin: 4rem;
 }
 
-#problems {
+#problems, #products {
   display: flex;
   flex-direction: row;
   padding: 2rem;
@@ -106,4 +112,71 @@
 .problem p {
   font-size: 1.8rem;
   margin: 1rem 0 0 0 ;
+}
+
+#problem > img {
+  max-height: 50rem;
+  max-width: 36.9226rem;
+  margin: 4rem;
+}
+
+#solution {
+  background: linear-gradient(#ffffff, #c8c8c8);
+  color: #000;
+  padding-bottom: 4rem;
+}
+
+#solution > p {
+  max-width: 80rem;
+}
+
+#solution .illustration {
+  max-height: 50rem;
+  margin: 4rem;
+}
+
+#products {
+  display: flex;
+  flex-direction: row;
+}
+
+#krellian-hub, #krellian-cloud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#krellian-hub h3, #krellian-cloud h3 {
+  margin: 0;
+}
+
+#krellian-hub h3 img, #krellian-cloud h3 img {
+  height: 3.5rem;
+}
+
+#krellian-hub > p, #krellian-cloud > p {
+  font-size: 1.8rem;
+  text-wrap: balance;
+  text-align: center;
+}
+
+#krellian-hub .button, #krellian-cloud .button {
+  width: 15rem;
+  text-align: center;
+}
+
+#krellian-hub > a, #krellian-cloud > a {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#krellian-hub a > img {
+  max-width: 30rem;
+  max-height: 30rem;
+}
+
+#krellian-cloud a > img {
+  max-height: 15rem;
+  margin: 7.5rem;
 }

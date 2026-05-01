@@ -14,9 +14,10 @@
   width: calc(100% - 4rem);
 }
 
-#problems {
+#problems, #products {
   flex-direction: column;
   padding: 0;
+  max-width: 50rem;
 }
 
 .problem h3 {
@@ -24,5 +25,21 @@
 }
 
 .problem p {
+  font-size: 1.6rem;
+}
+
+#krellian-cloud {
+  margin: 7.5rem 2rem 0;
+}
+
+#krellian-hub h3 img, #krellian-cloud h3 img {
+  height: 2.5rem;
+}
+
+#krellian-cloud a > img {
+  margin: 0 0 2rem 0;
+}
+
+#krellian-hub p, #krellian-cloud p {
   font-size: 1.6rem;
 }
