@@ -37,16 +37,6 @@
   margin: 2rem;
 }
 
-.cta {
-  margin: 2rem;
-}
-
-.cta .button {
-  width: 14rem;
-  margin: 1rem;
-  text-align: center;
-}
-
 #problem, #solution {
   display: flex;
   flex-direction: column;
@@ -214,6 +204,7 @@
   flex-direction: row;
   width: 80%;
   max-width: 110rem;
+  margin: 1rem 0;
 }
 
 #customer-segments ul {

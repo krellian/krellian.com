@@ -140,68 +140,13 @@ input[type=submit]:active {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-#use-cases {
-  padding: 4rem 15rem;
+.cta {
+  margin: 2rem 0;
 }
 
-/* Temporary dimensions during load */
-#use-cases li {
-  width: 20rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-#use-cases #arrows {
-  position: absolute;
-  top: calc(50% - 2rem);
-  height: 0;
-  width: 100%;
-
-}
-
-#use-cases #left-arrow {
-  position: absolute;
-  left: -4rem;
-  background-image: url('../images/left_arrow.svg');
-  background-color: transparent;
-  border: none;
-  width: 2.4rem;
-  height: 2.4rem;
-  padding: 0;
-}
-
-#use-cases #right-arrow {
-  position: absolute;
-  right: -4rem;
-  background-image: url('../images/right_arrow.svg');
-  background-color: transparent;
-  border: none;
-  width: 2.4rem;
-  height: 2.4rem;
-  padding: 0;
-}
-
-#left-arrow, #right-arrow {
-  opacity: 0.5;
-}
-
-#left-arrow:hover, 
-#left-arrow:active,
-#right-arrow:hover,
-#right-arrow:active {
-  opacity: 0.75;
-}
-
-#use-cases figure {
-  margin: 0;
-}
-
-.use-case img {
-  width: 100%;
-}
-
-.use-case figcaption {
-  font-size: 1.7rem;
+.cta .button {
+  width: 14rem;
+  margin: 1rem;
   text-align: center;
 }
 
