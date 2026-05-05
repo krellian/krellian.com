@@ -5,34 +5,53 @@
 
 #intro {
   flex-direction: row-reverse;
+  background: #040707;
+  background: linear-gradient(90deg,rgba(4, 7, 7, 1) 0%, rgba(31, 95, 119, 1) 50%, rgba(4, 7, 7, 1) 100%);
+}
+
+#intro h1, #intro h2, #intro .cta {
+  margin: 1rem 0;
+}
+
+#intro h1 .wordmark {
+  height: 3rem;
+}
+
+#intro h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  text-wrap: balance;
+}
+
+#intro .description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #intro .description .detail {
-  width: 100%;
-  max-width: 52rem;
-  margin: 10.52rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 35rem;
+}
+
+#intro .illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #intro .illustration .photo {
   display: block;
-  height: 18.6rem;
-  margin: 6.35rem auto 0 auto;
+  height: 32rem;
 }
 
-#intro .illustration .wordmark {
-  display: block;
-  height: 2.7rem;
-  margin: 1rem auto 6.35rem auto;
-}
-
-#intro h1 {
-  display: block;
-  width: 100%;
-  font-size: 2.9rem;
-  font-weight: 600;
-  color: #1a1a1a;
-  line-height: 1.2;
-  margin: 0;
+#intro .cta .button:first-child {
+  margin-left: 0;
 }
 
 #benefits {
@@ -44,8 +63,9 @@
     display: block;
     font-size: 2.4rem;
     text-align: center;
-    max-width: 84rem;
+    max-width: 85rem;
     margin: 2rem auto;
+    text-wrap: balance;
 }
 
 #key-benefits {
@@ -70,6 +90,7 @@
   font-size: 1.9rem;
   margin: 0;
   padding: 0;
+  text-wrap: balance;
 }
 
 .feature {
@@ -142,13 +163,13 @@
 }
 
 #hardware-specifications .illustration img {
-  height: 30rem;
+  height: 32rem;
 }
 
 #software img {
   display: block;
   margin: 4rem auto;
-  height: 4.5rem;
+  height: 4.2rem;
 }
 
 #software p, #standards p {
@@ -157,11 +178,33 @@
   text-align: center;
   font-size: 1.7rem;
   padding-bottom: 0;
-  max-width: 45rem;
+  max-width: 50rem;
+  text-wrap: balance;
+}
+
+#standards {
+  background-color: #ececec;
 }
 
 #standards img {
   display: block;
   margin: 0 auto;
   width: 80rem;
+}
+
+#buy {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#buy img {
+  width: 40rem;
+  margin: 2rem;
+}
+
+#buy > a {
+  font-size: 1.8rem;
 }
