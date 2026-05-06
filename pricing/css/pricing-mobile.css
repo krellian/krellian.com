@@ -1,0 +1,31 @@
+#packages {
+  grid-template-columns: 1fr;
+}
+
+.biggest.package {
+  grid-column: auto;
+}
+
+.package {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.limits {
+  max-width: 30rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.amount {
+  font-size: 2.4rem;
+}
