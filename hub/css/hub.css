@@ -80,6 +80,10 @@
   padding: 2rem;
 }
 
+#key-benefits .benefit img {
+  height: 6.4rem;
+}
+
 #key-benefits .benefit h1 {
   font-size: 2.6rem;
   font-weight: 600;
