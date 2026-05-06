@@ -4,129 +4,67 @@
 }
 
 #intro {
-  flex-direction: row;
+  flex-direction: row-reverse;
+  background: #040707;
+  background: linear-gradient(90deg,rgba(4, 7, 7, 1) 0%, rgba(31, 95, 119, 1) 50%, rgba(4, 7, 7, 1) 100%);
+}
+
+#intro h1, #intro h2, #intro .cta {
+  margin: 1rem 0;
+}
+
+#intro h1 .wordmark {
+  height: 3rem;
+}
+
+#intro h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  text-wrap: balance;
+}
+
+#intro .description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #intro .description .detail {
   display: flex;
-  height: 100%;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  max-width: 35rem;
 }
 
-#intro .description .detail .button {
-  margin: 1rem 0 0 0;
+#intro .illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #intro .illustration .drawing {
-  display: block;
-  height: 18.6rem;
-  margin: 6.35rem auto 0 auto;
+  width: 33rem;
 }
 
-#intro .illustration .wordmark {
-  display: block;
-  height: 2.7rem;
-  margin: 1rem auto 6.35rem auto;
+#intro .cta .button:first-child {
+  margin-left: 0;
 }
-
-#intro h1 {
-  display: block;
-  width: 100%;
-  font-size: 2.9rem;
-  font-weight: 600;
-  color: #1a1a1a;
-  line-height: 1.2;
-  margin: 0;
-}
-
-#intro h2 {
-  font-size: 2.4rem;
-  color: #666;
-  margin: 1rem 0 0 0;
-  font-weight: 400;
-}
-
-#screenshot-carousel {
-  margin: 2rem auto;
-}
-
-/*#screenshots #arrows {
-  position: absolute;
-  top: calc(50% - 2rem);
-  height: 0;
-  width: 100%;
-}*/
-
-#carousel-controls {
-  display: block;
-  text-align: center;
-}
-
-#screenshots #left-arrow {
-  /*position: absolute;
-  left: -4rem;*/
-  background-image: url('/images/left_arrow.svg');
-  background-color: transparent;
-  border: none;
-  width: 2.4rem;
-  height: 2.4rem;
-  padding: 0;
-  margin: 1rem;
-}
-
-#screenshot-selectors {
-  display: inline-block;
-}
-
-.screenshot-selector {
-  background-image: url('/images/bullet.svg');
-  background-color: transparent;
-  width: 1.6rem;
-  height: 1.6rem;
-  margin: 0.5rem;
-  border: none;
-  opacity: 0.5;
-}
-
-.screenshot-selector:hover, .screenshot-selector:active {
-  opacity: 0.75;
-}
-
-.glide__bullet--active, .glide__bullet--active:hover {
-  opacity: 1;
-}
-
-#screenshots #right-arrow {
-  /*position: absolute;
-  right: -4rem;*/
-  background-image: url('/images/right_arrow.svg');
-  background-color: transparent;
-  border: none;
-  width: 2.4rem;
-  height: 2.4rem;
-  padding: 0;
-  margin: 1rem;
-}
-
-.screenshot img {
-  display: block;
-  width: 100%;
-  max-width: 80rem;
-  margin: 0 auto;
-}
-
-.screenshot figcaption {
-  font-size: 1.6rem;
-  text-align: center;
-  margin-top: 2rem;
-}
-
 
 #benefits {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+#benefits .one-liner {
+    display: block;
+    font-size: 2.4rem;
+    text-align: center;
+    max-width: 85rem;
+    margin: 2rem auto;
+    text-wrap: balance;
 }
 
 #key-benefits {
@@ -141,6 +79,10 @@
   padding: 2rem;
 }
 
+#key-benefits .benefit img {
+  height: 6.4rem;
+}
+
 #key-benefits .benefit h1 {
   font-size: 2.6rem;
   font-weight: 600;
@@ -149,6 +91,47 @@
 
 #key-benefits .benefit p {
   font-size: 1.9rem;
+  margin: 0;
+  padding: 0;
+  text-wrap: balance;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.feature.dark-section {
+  flex-direction: row-reverse;
+}
+
+.feature .illustration img {
+  width: 60rem;
+}
+
+.feature .description {
+  flex: 1;
+  padding-left: 6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.feature.dark-section .description {
+  padding-left: 0;
+  padding-right: 6rem;
+}
+
+.feature .description h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.feature .description p {
+  font-size: 1.7rem;
   margin: 0;
 }
 
@@ -176,4 +159,21 @@
   display: block;
   margin: 0 auto;
   height: 9rem;
+}
+
+#sign-up {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sign-up img {
+  width: 80rem;
+  margin: 2rem;
+}
+
+#sign-up > a {
+  font-size: 1.8rem;
 }
