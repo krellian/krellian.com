@@ -29,8 +29,12 @@
   margin-bottom: 0;
 }
 
+.product h2 img {
+  height: 3.5rem;
+}
+
 .product p {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   text-wrap: balance;
   flex-grow: 1;
 }
@@ -58,7 +62,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   text-align: center;
   height: 100%
 }

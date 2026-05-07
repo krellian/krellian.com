@@ -11,6 +11,11 @@
   max-width: 25rem;
 }
 
+.product h2 img {
+  width: 100%;
+  max-height: 3.5rem;
+}
+
 .featured.product {
   grid-column: span 1;
   flex-direction: column;
