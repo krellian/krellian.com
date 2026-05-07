@@ -1,39 +1,39 @@
-#krellian-cloud,
-#krellian-consulting {
-  display: block;
+.service {
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.service .illustration img {
+  width: 100%;
+}
+
+.service h2 img {
+  width: 100%;
+  max-height: 3.5rem;
+}
+
+#krellian-cloud h2 img {
+  width: 100%;
+  max-height: 3.5rem;
+}
+
+#krellian-consulting h2 img {
+  width: 100%;
+  max-height: 4.4rem;
+}
+
+#krellian-cloud {
+  flex-direction: column;
+}
+
+#krellian-cloud .illustration img {
+  width: 100%;
   height: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  max-width: 33rem;
 }
 
-#krellian-cloud .illustration img,
 #krellian-consulting .illustration img {
-  display: block;
   width: 100%;
-  margin: 0 auto;
-}
-
-#krellian-cloud .description .detail,
-#krellian-consulting .description .detail {
-  width: 100%;
-  max-width: 100%;
-  font-size: 1.3rem;
-  box-sizing: border-box;
-  padding: 1rem;
-  margin: 0;
-}
-
-#krellian-cloud .detail img {
-  height: 2.5rem;
-}
-
-#krellian-consulting .detail img {
-  height: 3.1rem;
-}
-
-#krellian-cloud .detail p,
-#krellian-consulting .detail p {
-  max-width: 27rem;
-  display: block;
-  margin: 1rem auto;
+  height: auto;
+  max-width: 36rem;
 }
