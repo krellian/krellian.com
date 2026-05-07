@@ -1,7 +1,14 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ececec;
+}
+
 #services {
+  max-width: 110rem;
   padding: 4rem;
   margin: 0;
-  background-color: #ececec;
 }
 
 .service {
