@@ -127,7 +127,8 @@
 .button {
   display: block;
   box-sizing: border-box;
-  width: 12rem;
+  width: 15rem;
   text-decoration: none;
   margin: 4rem auto;
+  text-align: center;
 }
