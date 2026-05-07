@@ -1,64 +1,76 @@
-#krellian-hub {
-  height: 35rem;
-  display: flex;
-  flex-direction: reverse;
+#products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding: 4rem;
+  margin: 0;
+  background-color: #ececec;
 }
 
-#krellian-hub .illustration img {
-  display: block;
-  width: 100%;
-  max-width: 36rem;
-  margin: 8.2rem auto;
-}
-
-#krellian-hub .description .detail {
-  width: 100%;
-  max-width: 35rem;
-  margin: 9.5rem auto;
+.product {
+  background-color: #fff;
+  border: solid 1px #e2e2e2;
+  border-radius: 0.5rem;
   text-align: center;
-  font-size: 1.7rem;
-}
-
-#krellian-cloud {
-  height: 35rem;
+  padding: 4rem;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#krellian-cloud {
-  flex-direction: row-reverse;
+.product > img {
+  width: 100%;
+  max-width: 25rem; 
 }
 
-#krellian-cloud .illustration,
-#krellian-cloud .description {
+.product h2 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.product p {
+  font-size: 1.7rem;
+  text-wrap: balance;
+  flex-grow: 1;
+}
+
+.product .button {
+  width: 15rem;
+}
+
+.featured.product {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: row;
+}
+
+.featured.product .illustration {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured.product .detail {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1.7rem;
   text-align: center;
-  padding: 2rem;
-  box-sizing: border-box;
+  height: 100%
 }
 
-#krellian-cloud .description {
-  padding: 0 2rem;
-  box-sizing: border-box;
+.featured.product .detail h2 {
+  margin-bottom: 0;
 }
 
-#krellian-cloud .description p {
-  max-width: 35rem;
+.featured.product .detail p {
+  text-wrap: balance;
 }
 
-#krellian-cloud .detail {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#krellian-cloud .illustration img {
-  width: 33rem;
-}
-
-.button {
-  margin: 0 auto;
+#krellian-hub .illustration img {
+  width: 30rem;
 }

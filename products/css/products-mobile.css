@@ -1,72 +1,22 @@
-#krellian-hub {
-  display: block;
-  height: auto;
+#products {
+  grid-template-columns: 1fr;
+}
+
+.product {
+  padding: 2rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 25rem;
+}
+
+.featured.product {
+  grid-column: span 1;
+  flex-direction: column;
 }
 
 #krellian-hub .illustration img {
-  display: block;
   width: 100%;
-  margin: 0 auto;
-}
-
-#krellian-hub .illustration img{
-  max-width: 36rem;
-}
-
-#krellian-hub {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-#krellian-hub .description .detail {
-  width: 100%;
-  max-width: 100%;
-  font-size: 1.3rem;
-  box-sizing: border-box;
-  padding: 1rem;
-  margin: 0;
-}
-
-#krellian-hub .detail img {
-  height: 2.5rem;
-}
-
-#krellian-hub .detail p {
-  max-width: 27rem;
-  display: block;
-  margin: 1rem auto;
-}
-
-
-
-#krellian-cloud {
-  display: block;
-  height: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-#krellian-cloud .illustration img {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#krellian-cloud .description .detail {
-  width: 100%;
-  max-width: 100%;
-  font-size: 1.3rem;
-  box-sizing: border-box;
-  padding: 1rem;
-  margin: 0;
-}
-
-#krellian-cloud .detail img {
-  height: 2.5rem;
-}
-
-#krellian-cloud .detail p {
-  max-width: 27rem;
-  display: block;
-  margin: 1rem auto;
+  max-width: 30rem;
 }
