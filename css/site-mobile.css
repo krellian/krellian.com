@@ -83,3 +83,18 @@ header #logo {
   padding: 2rem;
   box-sizing: border-box;
 }
+
+footer {
+  padding: 2rem 4rem;
+}
+
+#footer-links {
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#footer-links section:first-child {
+  grid-column: span 2;
+  width: auto;
+  margin-bottom: 2rem;
+}
