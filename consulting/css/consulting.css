@@ -6,7 +6,7 @@
   color: #000;
 }
 
-.dark-section h1, .light-section {
+.dark-section h1, .light-section h1 {
   font-size: 2.6rem;
   font-weight: 600;
   margin: 0 auto;

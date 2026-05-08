@@ -249,3 +249,7 @@
   color: #34d399;
   font-weight: 600;
 }
+
+#customers .cta {
+  text-align: center;
+}
