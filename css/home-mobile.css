@@ -38,6 +38,8 @@
 
 #krellian-cloud a > img {
   margin: 0 0 2rem 0;
+  width: 100%;
+  max-height: 20rem;
 }
 
 #krellian-hub p, #krellian-cloud p {
