@@ -198,76 +198,85 @@ input[type=submit]:active {
 }
 
 footer {
-  padding: 2rem;
-  font-size: 1.3rem;
-  text-align: center;
-  color: #1a1a1a;
-}
-
-footer #footer-links {
-  margin: 1rem auto 2rem auto;
-}
-
-footer #footer-links a {
-  color: #1a1a1a;
-  text-decoration: none;
-}
-
-footer #footer-links a:hover, footer #footer-links a:active {
-  text-decoration: underline;
-}
-
-footer #footer-links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
   font-size: 1.4rem;
+  padding: 4rem 4rem 1rem 8rem;
+}
+
+#footer-links {
+  width: 100%;
+  max-width: 110rem;
+  margin: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 35rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+#footer-links section {
+  min-width: 0;
+}
+
+#footer-links h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+#footer-links ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-footer #footer-links li {
-  list-style-type: none;
-  display: inline;
-  border-right: solid 1px #1a1a1a;
-  padding: 0 1rem;
+#footer-links li {
+  margin: 0.5rem 0;
 }
 
-footer #footer-links li:last-child {
-  border-right: none;
+#footer-links a {
+  color: #fff;
 }
 
-footer #social a {
-  display: inline-block;
-  width: 3.2rem;
-  height: 3.2rem;
-  background-size: 3.2rem;
-  background-repeat: no-repeat;
+#footer-links #footer-about {
+  margin-right: 4rem;
+}
+
+#footer-about h1 {
+  text-align: left;
+  margin: 0;
+}
+
+#footer-about .wordmark {
+  height: 2rem;
+}
+
+#footer-about p {
+  margin: 0;
+  text-wrap: balance;
+}
+
+#footer-social {
+  text-align: center;
+  margin: 4rem 0 1rem 0;
+}
+
+#footer-social a {
   margin: 0.5rem;
 }
 
-footer #facebook-icon {
-  background-image: url('../images/facebook_icon-greyscale.svg');
+#footer-social a img {
+  opacity: 0.5;
 }
 
-footer #github-icon {
-  background-image: url('../images/github_icon-greyscale.svg');
-}
-
-footer #twitter-icon {
-  background-image: url('../images/twitter_icon-greyscale.svg');
-}
-
-footer #facebook-icon:hover, #facebook-icon:active {
-  background-image: url('../images/facebook_icon-colour.svg');
-}
-
-footer #github-icon:hover, #github-icon:active {
-  background-image: url('../images/github_icon-colour.svg');
-}
-
-footer #twitter-icon:hover, #twitter-icon:active {
-  background-image: url('../images/twitter_icon-colour.svg');
+#footer-social a img:hover, #footer-social a img:active {
+  opacity: 1.0;
 }
 
 #copyright {
-  display: block;
-  margin-top: 1rem;
+  text-align: center;
 }

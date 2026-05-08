@@ -6,7 +6,7 @@
   color: #000;
 }
 
-h1 {
+.dark-section h1, .light-section {
   font-size: 2.6rem;
   font-weight: 600;
   margin: 0 auto;
@@ -14,7 +14,7 @@ h1 {
   padding: 4rem 0 1rem 0;
 }
 
-h2 {
+.dark-section h2, .light-section h2 {
   font-size: 1.4rem;
   font-weight: normal;
   margin: 0 auto;
