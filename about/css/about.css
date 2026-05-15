@@ -61,6 +61,7 @@
   font-size: 1.7rem;
   max-width: 60rem;
   text-align: center;
+  text-wrap: balance;
 }
 
 .bubble::after {
