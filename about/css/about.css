@@ -37,7 +37,7 @@
   font-weight: normal;
 }
 
-#about h2 {
+#about h2, #register h2 {
   font-size: 2.6rem;
   font-weight: 600;
   margin: 0 auto;
@@ -123,13 +123,4 @@
 
 #founder figure {
   margin: 2rem auto;
-}
-
-.button {
-  display: block;
-  box-sizing: border-box;
-  width: 15rem;
-  text-decoration: none;
-  margin: 4rem auto;
-  text-align: center;
 }

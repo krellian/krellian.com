@@ -197,6 +197,16 @@ input[type=submit]:active {
   font-family: "Open Sans", sans-serif;
 }
 
+.light-section#register input[type=text],
+.light-section#register input[type=email] {
+  background-color: #e6e6e6;
+}
+
+#register p {
+  font-size: 1.4rem;
+  margin-top: 0;
+}
+
 footer {
   display: flex;
   flex-direction: column;
